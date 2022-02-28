@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKS</title>
+    <style>
+        td:nth-child(-n+4) {
+            border-right: solid 3px red;
+            padding: 20px;
+        }
+        td:last-child {
+            padding: 20px;
+        }
+        a[href^='https://']:nth-child(-n+4) {
+            padding: 20px;
+            border-right: solid 3px red;
+        }
+        a[href^='https://']:last-child {
+            padding: 20px;
+        }
+        a:hover {
+            color: red;
+        }
+        p {
+            display: inline;
+        }
+        .one {
+            padding-top: 80px;
+        }
+        .two {
+            padding-top: 70px;
+        }
+        a[target^='_blank']:last-child {
+            padding: 20px;
+        }
+        .four {
+            padding-top: 80px;
+        }
+        span {
+            background: url(../Pictures/6/border_2.gif);
+            background-repeat: no-repeat;
+            background-position: right;
+            padding: 20px;
+        }
+        span:last-child {
+            background: none;
+        }
+    </style>
+</head>
+<body>
+    <div> <!--Горизонтальное меню выполнено табличной версткой, разделители представляют собой правую рамку-->
+        <table>
+            <tr>
+                <td>
+                    <a href="http://htmlbook.ru">Первая ссылка</a>
+                </td>
+                <td>
+                    <a href="http://htmlbook.ru">Вторая ссылка</a>
+                </td>
+                <td>
+                    <a href="http://htmlbook.ru">Третья ссылка</a>
+                </td>
+                <td>
+                    <a href="http://htmlbook.ru">Четвертая ссылка</a>
+                </td>
+                <td>
+                    <a href="http://htmlbook.ru">Пятая ссылка</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="two"> <!--Горизонтальное меню сделано с помощью селекторов псевдоклассов, также добавлены разделители-->
+            <a href="https://www.onliner.by/">Первая ссылка</a>
+            <a href="https://www.onliner.by/">Вторая ссылка</a>
+            <a href="https://www.onliner.by/">Третья ссылка</a>
+            <a href="https://www.onliner.by/">Четвертая ссылка</a>
+            <a href="https://www.onliner.by/">Пятая ссылка</a>
+    </div>    
+    <div class="one"><!--Горизонтальное меню сделано посредством display: inline, разделители добавлены посредством селекторов псевдоклассов -->
+            <p><a href="https://ru.wikipedia.org/" target="_blank">Первая ссылка</a></p>
+            <p><a href="https://ru.wikipedia.org/" target="_blank">Вторая ссылка</a></p>
+            <p><a href="https://ru.wikipedia.org/" target="_blank">Третья ссылка</a></p>
+            <p><a href="https://ru.wikipedia.org/" target="_blank">Четвертая ссылка</a></p>
+            <p><a href="http://ru.wikipedia.org/" target="_blank">Пятая ссылка</a></p>
+    </div>
+    <div class="four"><!--Горизонтальное меню сделано посредством строчного тега span, рамка добавлена фоновой картинкой с позиционированием вправо-->
+        <span><a href="http://www.onliner.by/">Первая ссылка</a></span>
+        <span><a href="http://www.onliner.by/">Вторая ссылка</a></span>
+        <span><a href="http://www.onliner.by/">Третья ссылка</a></span>
+        <span><a href="http://www.onliner.by/">Четвертая ссылка</a></span>
+        <span><a href="http://www.onliner.by/">Пятая ссылка</a></span>
+    </div>
+</body>
+</html>
