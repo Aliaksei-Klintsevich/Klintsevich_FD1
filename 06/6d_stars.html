@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>6d_stars</title>
+    <title>6d_stars_2</title>
     <style>
         .star { 
             background: url(../Pictures/6/star0.png);
@@ -12,46 +12,22 @@
             height: 80px;
             background-repeat: no-repeat;
             display: inline-block;
-         }
-        .star:hover { 
-            background: url(../Pictures/6/star1.png);
-            background-repeat: no-repeat;
         }
-        .str_2:hover {
+        .stars:hover .star {
           background: url(../Pictures/6/star1.png);
-          width: 150px;
-          height: 80px;
-          background-repeat: repeat-x;
-          margin-left: -90px;
         }
-        .str_3:hover {
-          background: url(../Pictures/6/star1.png);
-          width: 225px;
-          height: 80px;
-          background-repeat: repeat-x;
-          margin-left: -165px;
-        }
-        .str_4:hover {
-          background: url(../Pictures/6/star1.png);
-          width: 300px;
-          height: 80px;
-          background-repeat: repeat-x;
-          margin-left: -250px;
-        }
-        .str_5:hover {
-          background: url(../Pictures/6/star1.png);
-          width: 380px;
-          height: 80px;
-          background-repeat: repeat-x;
-          margin-left: -325px;
+        .star:hover ~ .star {
+          background: url(../Pictures/6/star0.png);
         }
         </style>
 </head>
 <body>
+  <div class="stars">
         <div class="star"></div>
-        <div class="star str_2"></div>
-        <div class="star str_3"></div>
-        <div class="star str_4"></div>
-        <div class="star str_5"></div>   
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+  </div>         
 </body>
 </html>
