@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKS</title>
+    <style>
+        a:hover {
+            color: red;
+        }
+        div.one td {
+            border-right: solid red 3px;
+            padding: 10px;
+        }
+        div.one td:last-child {
+            border-right: none;
+        }
+        div.two ul {
+            list-style: none;
+            margin-left: -40px;
+        }
+        div.two li {
+            display: inline-block;
+            border-right: solid red 3px;
+            padding: 10px;
+        }
+        div.two li:last-child {
+            border-right: none;
+        }
+        div.three div {
+            float: left;
+            padding: 10px;
+            border-right: solid red 3px;
+        }
+        div.three div:last-child {
+            border-right: none;
+        }
+        div.four span {
+            color: red;
+            font-size: 30px;
+            padding: 10px;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="one"> <!--Горизонтальное меню выполнено табличной версткой, разделители представляют собой правую рамку-->
+        <table>
+            <tr>
+                <td>
+                    <a href="https://htmlbook.ru">Первая ссылка</a>
+                </td>
+                <td>
+                    <a href="https://htmlbook.ru">Вторая ссылка</a>
+                </td>
+                <td>
+                    <a href="https://htmlbook.ru">Третья ссылка</a>
+                </td>
+                <td>
+                    <a href="https://htmlbook.ru">Четвертая ссылка</a>
+                </td>
+                <td>
+                    <a href="https://htmlbook.ru">Пятая ссылка</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="two"> <!--Горизонтальное меню выполнено посредством списка, разделители представляют собой правую рамку-->
+        <ul>
+            <li>
+                <a href="https://htmlbook.ru">Первая ссылка</a>
+            </li>
+            <li>
+                <a href="https://htmlbook.ru">Вторая ссылка</a>
+            </li>
+            <li>
+                <a href="https://htmlbook.ru">Третья ссылка</a>
+            </li>
+            <li>
+                <a href="https://htmlbook.ru">Четвертая ссылка</a>
+            </li>
+            <li>
+                <a href="https://htmlbook.ru">Пятая ссылка</a>
+            </li>
+        </ul>
+    </div>
+    <div class="three"> <!--Горизонтальное меню выполнено посредством float, разделители представляют собой правую рамку.-->
+        <div><a href="https://htmlbook.ru">Первая ссылка</a></div>
+        <div><a href="https://htmlbook.ru">Вторая ссылка</a></div>
+        <div><a href="https://htmlbook.ru">Третья ссылка</a></div>
+        <div><a href="https://htmlbook.ru">Четвертая ссылка</a></div>
+        <div><a href="https://htmlbook.ru">Пятая ссылка</a></div>
+    </div>
+    <div class="four"> <!--Рамка представляет собой буквицу "I" без засечек-->
+        <br>
+        <br>
+        <br>
+        <a href="https://htmlbook.ru">Первая ссылка</a><span>I</span><a href="https://htmlbook.ru">Вторая ссылка</a><span>I</span><a href="https://htmlbook.ru">Третья ссылка</a><span>I</span><a href="https://htmlbook.ru">Четвертая ссылка</a><span>I</span><a href="https://htmlbook.ru">Пятая ссылка</a></span>
+    </div>
+</body>
+</html>
