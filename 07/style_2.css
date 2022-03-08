@@ -51,7 +51,7 @@ p {
     background-position: right;
     background-repeat: repeat-y;
 }
- @media all and (max-width:800px)
+ @media all and (max-width:1000px)
 {
 img {
 width: 100%;
