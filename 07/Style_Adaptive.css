@@ -1,0 +1,89 @@
+body {
+    margin: auto;
+}
+ul {
+    text-align: left;
+    padding-left: 35px;
+}
+.top {
+    text-align: center;
+    color: blue;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: skyblue;
+}
+.bottom {
+    text-align: center;
+    color: blue;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 40px;
+    background-color: skyblue;
+    clear: both;
+}
+.picture {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.left {
+    background-color: yellow;
+    width: 200px;
+    font-size: 25px;
+    float: left;
+}
+p {
+    font-size: 25px;
+}
+.main {
+    margin-left: 200px;
+    padding-left: 20px;
+}
+.ball {
+    background: url(../Pictures/5/football_gif.gif);
+    overflow: hidden;
+    background-position: right;
+    background-repeat: repeat-y;
+}
+.yellow {
+    background: url(../Pictures/5/bg3.gif) repeat-y;
+}
+ @media screen and (max-width:600px)
+{
+img {
+width: 100%;
+}
+div.top {
+display: none;
+}
+div.bottom {
+display: none;
+}
+div.left {
+    display: none;
+}
+div.yellow {
+    background: none;
+}
+div.main {
+    margin-left: 0px;
+}
+}
+@media screen and (max-width:900px)
+{
+img {
+width: 100%;
+}
+div.top {
+display: none;
+}
+div.bottom {
+display: none;
+}
+}
