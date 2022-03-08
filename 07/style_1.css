@@ -54,7 +54,7 @@ p {
 .yellow {
     background: url(../Pictures/5/bg3.gif) repeat-y;
 }
- @media all and (max-width:800px)
+ @media all and (max-width:700px)
 {
 img {
 width: 100%;
