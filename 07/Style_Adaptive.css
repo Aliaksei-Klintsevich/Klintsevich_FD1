@@ -56,9 +56,13 @@ p {
 }
  @media screen and (max-width:600px)
 {
+body {
+    margin: 0px;
+}
 img {
 width: 100%;
 }
+
 div.top {
 display: none;
 }
@@ -73,9 +77,13 @@ div.yellow {
 }
 div.main {
     margin-left: 0px;
+    padding-left: 0px;
 }
 div.ball {
     overflow: none;
+}
+img.picture {
+    padding-right: 0px;
 }
 }
 @media screen and (max-width:900px)
