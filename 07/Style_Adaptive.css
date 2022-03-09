@@ -74,6 +74,9 @@ div.yellow {
 div.main {
     margin-left: 0px;
 }
+div.ball {
+    overflow: none;
+}
 }
 @media screen and (max-width:900px)
 {
