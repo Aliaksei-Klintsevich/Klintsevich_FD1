@@ -62,7 +62,12 @@ body {
 img {
 width: 100%;
 }
-
+p.header {
+    margin: auto;
+}
+p {
+    margin: auto;
+}
 div.top {
 display: none;
 }
@@ -80,7 +85,7 @@ div.main {
     padding-left: 0px;
 }
 div.ball {
-    overflow: none;
+    overflow: visible;
 }
 img.picture {
     padding-right: 0px;
@@ -96,5 +101,14 @@ display: none;
 }
 div.bottom {
 display: none;
+}
+div.ball {
+    overflow: visible;
+}
+p.header {
+    margin: auto;
+}
+p {
+    margin: auto;
 }
 }
