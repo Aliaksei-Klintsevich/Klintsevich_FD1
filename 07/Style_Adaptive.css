@@ -103,7 +103,7 @@ div.bottom {
 display: none;
 }
 div.ball {
-    overflow: visible;
+    overflow-y: visible;
 }
 p.header {
     margin: auto;
