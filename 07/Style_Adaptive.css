@@ -31,10 +31,11 @@ ul {
     text-align: center;
     font-weight: bold;
     font-size: 30px;
+    margin-top: auto;
 }
 .left {
     background-color: yellow;
-    width: 200px;
+    width: 199px;
     font-size: 25px;
     float: left;
 }
@@ -42,12 +43,11 @@ p {
     font-size: 25px;
 }
 .main {
-    margin-left: 200px;
-    padding-left: 20px;
+    margin-left: 120px;
+    padding: 98px;
 }
 .ball {
     background: url(../Pictures/5/football_gif.gif);
-    overflow: hidden;
     background-position: right;
     background-repeat: repeat-y;
 }
@@ -65,9 +65,6 @@ width: 100%;
 p.header {
     margin: auto;
 }
-p {
-    margin: auto;
-}
 div.top {
 display: none;
 }
@@ -82,10 +79,7 @@ div.yellow {
 }
 div.main {
     margin-left: 0px;
-    padding-left: 0px;
-}
-div.ball {
-    overflow: visible;
+    padding-left: 5px;
 }
 img.picture {
     padding-right: 0px;
@@ -102,13 +96,11 @@ display: none;
 div.bottom {
 display: none;
 }
-div.ball {
-    overflow-y: visible;
-}
 p.header {
-    margin: auto;
+    margin-top: -70px;
+    padding-bottom: 40px;
 }
-p {
-    margin: auto;
+div.main {
+    padding-right: 50px;
 }
 }
