@@ -1,0 +1,35 @@
+div {
+    padding: 4px;
+}
+ol {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+li {
+    display: inline-block;
+}
+.title {
+    width: 400px;
+}
+.comment {
+    width: 500px;
+}
+@media screen and (max-width:500px)
+{
+li {
+    display: block;
+}
+.title {
+    width: 380px;
+}
+.comment {
+    width: 380px;
+}
+select {
+    width: 380px;
+}
+div {
+    width: 380px;
+}
+}
