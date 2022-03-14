@@ -10,11 +10,22 @@ li {
     display: inline-block;
 }
 .title {
-    width: 400px;
+    width: 1320px;
+    position: absolute;
+}
+.title_padding {
+    padding-left: 60px;
+}
+.category {
+    padding-left: 112px;
+}
+.public {
+    padding-left: 80px;
 }
 .comment {
-    width: 500px;
+    width: 1500px;
 }
+
 @media screen and (max-width:500px)
 {
 li {
@@ -22,14 +33,21 @@ li {
 }
 .title {
     width: 380px;
+    position: relative;
+}
+.title_padding {
+    padding-left: 0px;
 }
 .comment {
     width: 380px;
 }
-select {
-    width: 380px;
+.category {
+    padding-left: 0px;
 }
-div {
-    width: 380px;
+.public {
+    padding-left: 0px;
+}
+select {
+    width: 385px;
 }
 }
