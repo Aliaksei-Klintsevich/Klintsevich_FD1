@@ -1,0 +1,116 @@
+body {
+    margin: auto;
+}
+ul {
+    text-align: left;
+    padding-left: 35px;
+}
+.top {
+    text-align: center;
+    color: blue;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: skyblue;
+}
+.bottom {
+    text-align: center;
+    color: blue;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 40px;
+    background-color: skyblue;
+    clear: both;
+}
+.picture {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: auto;
+}
+.left {
+    background-color: yellow;
+    width: 199px;
+    font-size: 25px;
+    float: left;
+}
+p {
+    font-size: 25px;
+}
+.main {
+    margin-left: 120px;
+    padding: 98px;
+}
+.ball {
+    background: url(../Pictures/5/football_gif.gif);
+    background-position: right;
+    background-repeat: repeat-y;
+}
+.yellow {
+    background: url(../Pictures/5/bg3.gif) repeat-y;
+}
+.fix {
+	width:110px;
+	background: yellowgreen;
+	text-align:center;
+	position:fixed;
+	top: 50px;
+	right:50px;
+    padding: 20px;
+    border: 2px solid black;
+}
+ @media screen and (max-width:600px)
+{
+body {
+    margin: 0px;
+}
+img {
+width: 100%;
+}
+p.header {
+    margin: auto;
+}
+div.top {
+display: none;
+}
+div.bottom {
+display: none;
+}
+div.left {
+    display: none;
+}
+div.yellow {
+    background: none;
+}
+div.main {
+    margin-left: 0px;
+    padding-left: 5px;
+}
+img.picture {
+    padding-right: 0px;
+}
+}
+@media screen and (max-width:900px)
+{
+img {
+width: 100%;
+}
+div.top {
+display: none;
+}
+div.bottom {
+display: none;
+}
+p.header {
+    margin-top: -70px;
+    padding-bottom: 40px;
+}
+div.main {
+    padding-right: 50px;
+}
+}
