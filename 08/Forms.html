@@ -14,7 +14,7 @@
     <form method="post" action="http://fe.it-academy.by/TestForm.php">
         <div>
             Название статьи: 
-            <input type="text" name="title" class="title">
+            <span class="title_padding"><input type="text" name="title" class="title"></span>
         </div>
         <div>
             <ol>
@@ -22,11 +22,13 @@
                 Рубрика:
             </li> 
             <li>
+                <span class="category">
                 <select name="category" size=1>
                 <option value=1>Компьютерная техника</option>
                 <option value=2>Графика и дизайн</option>
                 <option value=3 selected>Программирование</option>
                 </select>
+                </span>
             </li>
         </select>
         </div>
@@ -36,7 +38,7 @@
                     Публикация:
                 </li>
                 <li>
-                    <input type="radio" name="public" value=1>на сайте
+                    <span class="public"><input type="radio" name="public" value=1>на сайте</span>
                 </li>
                 <li>
                     <input type="radio" name="public" value=2 checked>в журнале
