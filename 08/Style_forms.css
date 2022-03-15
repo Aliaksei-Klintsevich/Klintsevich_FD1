@@ -10,11 +10,10 @@ li {
     display: inline-block;
 }
 .title {
-    width: 1320px;
-    position: absolute;
+    width: 100%;
 }
 .title_padding {
-    padding-left: 60px;
+    padding-left: 180px;
 }
 .category {
     padding-left: 112px;
@@ -23,7 +22,7 @@ li {
     padding-left: 80px;
 }
 .comment {
-    width: 1500px;
+    width: 100%;
 }
 
 @media screen and (max-width:500px)
@@ -32,14 +31,13 @@ li {
     display: block;
 }
 .title {
-    width: 380px;
-    position: relative;
+    width: 100%;
 }
 .title_padding {
     padding-left: 0px;
 }
 .comment {
-    width: 380px;
+    width: 100%;
 }
 .category {
     padding-left: 0px;
@@ -48,6 +46,6 @@ li {
     padding-left: 0px;
 }
 select {
-    width: 385px;
+    width: 100%;
 }
 }
