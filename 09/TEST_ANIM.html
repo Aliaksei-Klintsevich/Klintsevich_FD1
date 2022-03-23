@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST_ANIM</title>
+    <style>
+        .one {
+            padding: 20px;
+            background-color: blue;
+            color: white;
+            border-radius: 20px;
+            transition-duration: 2s;
+            position: absolute;
+            top: 50px;
+            animation: MyAnimation 2s infinite;
+        }
+        .two {
+            padding: 20px;
+            background-color: blue;
+            color: white;
+            border-bottom-left-radius: 30px;
+            border-top-right-radius: 30px;
+            transition-duration: 2s;
+            position: absolute;
+            top: 50px;
+            left: 140px;
+        }
+        .three {
+            padding: 20px;
+            background-color: blue;
+            color: white;
+            border-radius: 20px;
+            transition-duration: 2s;
+            position: absolute;
+            top: 50px;
+            left: 280px;
+        }
+        .four {
+            padding: 40px;
+            color: white;
+            border-radius: 10px;
+            position: absolute;
+            top: 300px;
+            left: 120px;
+            transition-duration: 3s;
+        }
+        .container {
+            width: 400px;
+            height: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+        .container:hover .two {
+            background-color: rgb(192, 226, 43);
+        }
+        .container:hover .three { 
+            transform: scale(1.2);
+            background-color: indigo; 
+        }
+        .container:hover {
+            background-color: lightslategray;
+            transition-duration: 2s;
+        }
+        .container:hover .four {
+            background-color: darkgreen;
+            transform: scale(2);
+        }
+        @keyframes MyAnimation {
+        from { background-color: red; }
+        to { background-color: blue; }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one">Элемент 1</div>
+        <div class="two">Элемент 2</div>
+        <div class="three">Элемент 3</div>
+        <div class="four">Элемент 4</div>
+    </div>
+</body>
+</html>
