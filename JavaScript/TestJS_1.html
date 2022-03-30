@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestJS_1</title>
+</head>
+<body>
+    <p>Здесь может быть некий текст...</p>
+    <script>
+        var userName= 'Ваше ФИО:';
+        var surname= prompt ('Введите Вашу фамилию:');
+        var name= prompt ('Введите Ваше имя:');
+        var patronymic= prompt ('Введите Ваше отчество:');
+        
+        var userAge= ('Ваш возраст в годах:');
+        var age= prompt ('Введите Ваш возраст в годах');
+        var ageDays= ('Ваш возраст в днях:');
+        var days= age * 365;
+        var fiveYears= ('Через пять лет Вам будет:');
+        var five= +age + +5;
+        
+        var userFloor= confirm ('Ваш пол мужской?');
+        if (userFloor)
+        console.log('Ваш пол: мужской');
+        else
+        console.log('Ваш пол: женский');
+    
+        alert (userName + ' ' + surname + ' ' + name + ' ' + patronymic + 
+        '\n' + userAge + ' ' + age + 
+        '\n' + ageDays + ' ' + days + '\n' + fiveYears + ' ' + five + '\n' + userFloor);
+    
+    </script>
+    <p>Здесь может быть ещё текст...</p>
+</body>
+</html>
