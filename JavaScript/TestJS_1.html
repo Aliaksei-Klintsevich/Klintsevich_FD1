@@ -17,15 +17,17 @@
         var userAge= ('Ваш возраст в годах:');
         var age= prompt ('Введите Ваш возраст в годах');
         var ageDays= ('Ваш возраст в днях:');
-        var days= age * 365;
+        var days= parseInt (age) * 365;
         var fiveYears= ('Через пять лет Вам будет:');
-        var five= +age + +5;
+        var five= parseInt (age) + 5;
         
         var userFloor= confirm ('Ваш пол мужской?');
-        if (userFloor)
-        console.log('Ваш пол: мужской');
-        else
-        console.log('Ваш пол: женский');
+        if (userFloor) {
+        console.log ('Ваш пол: мужской');
+        }
+        else {
+        console.log ('Ваш пол: женский');
+        }
     
         alert (userName + ' ' + surname + ' ' + name + ' ' + patronymic + 
         '\n' + userAge + ' ' + age + 
