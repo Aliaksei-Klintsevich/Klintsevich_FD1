@@ -7,33 +7,41 @@
     <title>TestJS_1</title>
 </head>
 <body>
-    <p>Здесь может быть некий текст...</p>
     <script>
-        var userName= 'Ваше ФИО:';
-        var surname= prompt ('Введите Вашу фамилию:');
-        var name= prompt ('Введите Ваше имя:');
-        var patronymic= prompt ('Введите Ваше отчество:');
+        var userName = 'Ваше ФИО:';
+        var surname = prompt ('Введите Вашу фамилию:');
+        var name = prompt ('Введите Ваше имя:');
+        var patronymic = prompt ('Введите Ваше отчество:');
         
-        var userAge= ('Ваш возраст в годах:');
-        var age= prompt ('Введите Ваш возраст в годах');
-        var ageDays= ('Ваш возраст в днях:');
-        var days= parseInt (age) * 365;
-        var fiveYears= ('Через пять лет Вам будет:');
-        var five= parseInt (age) + 5;
+        var userAge = ('Ваш возраст в годах:');
+        var age = prompt ('Введите Ваш возраст в годах');
         
-        var userFloor= confirm ('Ваш пол мужской?');
+        var ageDays = ('Ваш возраст в днях:');
+        var days = parseInt (age) * 365;
+
+        var fiveYears = ('Через пять лет Вам будет:');
+        var five = parseInt (age) + 5;
+        
+        var userGender = 'Ваш пол:'; 
+        var userFloor = confirm ('Ваш пол мужской? (Подтвердите действие, нажав кнопку "ОК" в случае, если Ваш пол мужской. Нажмите кнопку "ОТМЕНА", если являетесь представителем женского пола.');
         if (userFloor) {
-        console.log ('Ваш пол: мужской');
+        userFloor = 'мужской';
         }
         else {
-        console.log ('Ваш пол: женский');
+        userFloor = 'женский';
         }
-    
+
+        var getMoney = 'Вы достигли пенсионного возраста:';
+        var yesOrNo = ((userFloor == 'мужской') && (parseInt (age) > 62)) || (parseInt (age) > 57);
+        if (yesOrNo) {
+        yesOrNo = 'Да';
+        }
+        else {
+        yesOrNo = 'Нет';
+        }
         alert (userName + ' ' + surname + ' ' + name + ' ' + patronymic + 
         '\n' + userAge + ' ' + age + 
-        '\n' + ageDays + ' ' + days + '\n' + fiveYears + ' ' + five + '\n' + userFloor);
-    
+        '\n' + ageDays + ' ' + days + '\n' + fiveYears + ' ' + five + '\n' + userGender + ' ' + userFloor + '\n' + getMoney + ' ' + yesOrNo);
     </script>
-    <p>Здесь может быть ещё текст...</p>
 </body>
 </html>
