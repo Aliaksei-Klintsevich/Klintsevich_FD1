@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anketa_oper</title>
+</head>
+<body>
+    <script>
+        var userName = 'Ваше ФИО:';
+        var surname = prompt ('Введите Вашу фамилию:');
+        var name = prompt ('Введите Ваше имя:');
+        var patronymic = prompt ('Введите Ваше отчество:');
+        
+        var userAge = ('Ваш возраст в годах:');
+        var age = prompt ('Введите Ваш возраст в годах');
+        
+        var ageDays = ('Ваш возраст в днях:');
+        var days = parseInt (age) * 365;
+
+        var fiveYears = ('Через пять лет Вам будет:');
+        var five = parseInt (age) + 5;
+        
+        var userGender = 'Ваш пол:'; 
+        var userFloor = confirm ('Ваш пол мужской? (Подтвердите действие, нажав кнопку "ОК" в случае, если Ваш пол мужской. Нажмите кнопку "ОТМЕНА", если являетесь представителем женского пола.');
+        var genderFloor = (userFloor) ? 'мужской' : 'женский';
+        console.log (genderFloor);
+
+        var getMoney = 'Вы достигли пенсионного возраста:';
+        var comparison = ((genderFloor == 'мужской') && (parseInt (age) > 62)) || ((userFloor == 'женский') && (parseInt (age) > 57));
+        var yesOrNo = (comparison) ? 'Да' : 'Нет';
+        console.log (yesOrNo);
+
+        alert (userName + ' ' + surname + ' ' + name + ' ' + patronymic + 
+        '\n' + userAge + ' ' + age + 
+        '\n' + ageDays + ' ' + days + '\n' + fiveYears + ' ' + five + '\n' + userGender + ' '
+         + genderFloor + '\n' + getMoney + ' ' + yesOrNo);
+    </script>
+</body>
+</html>
