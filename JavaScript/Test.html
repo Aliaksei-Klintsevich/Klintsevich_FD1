@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+</head>
+<body>
+    <input type='button' value='Ввод информации о стране' onclick='one ( )'>
+    <input type='button' value='Получение информации о стране' onclick='two ( )'>
+    <input type='button' value='Перечень всех стран' onclick='listCountrys ( )'>
+    <input type='button' value='Удаление информации о стране' onclick='four ( )'>
+    <script>
+
+    var countrysH={};
+
+    function one () {
+    var countryName = prompt ('Введите название страны');
+    var capitalName = prompt ('Введите название столицы');
+   addCountry(countryName,capitalName); 
+    }
+function addCountry(countryName,capitalName) {
+    countrysH[countryName]=capitalName;
+}
+    
+function deleteCountry(countryName) {
+    delete countrysH[countryName];
+}
+
+function two () {
+    var countryName = prompt ('Введите название страны');
+    getCountryInfo(countryName)
+}
+function getCountryInfo(countryName) {
+    if ( countryName in countrysH ) 
+        return 'страна: ' + countryName + ' столица: ' + countrysH[countryName] ;
+    else
+        return 'нет информации о стране ' + countryName + '!' ;
+}
+console.log ( getCountryInfo() );
+function listCountrys() {
+    var res="";
+    for ( var CN in countrysH )
+        res+='\n'+getCountryInfo(CN);
+    return res;
+}
+
+addCountry('Германия','Берлин');
+addCountry('Венгрия','Будапешт');
+addCountry('Франция','Париж');
+
+console.log( "список стран:" + listCountrys() );
+
+  /*  var сountrysH={ 'Германия':'Берлин', 'Венгрия':'Будапешт', 'Франция':'Париж' };
+    
+    var сountryName=prompt('Введите название страны:'); 
+    function getCountryInfo (countryName) {
+    if ( сountryName in сountrysH ) 
+        return 'страна: ' + сountryName + ' столица: ' + сountrysH[сountryName] ;
+    else
+        return 'нет информации о стране ' + сountryName + '!' ;
+    }
+    console.log ( getCountryInfo() ); */
+    </script>
+</body>
+</html>
