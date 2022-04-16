@@ -1,0 +1,61 @@
+.footer-bottom {
+    height: 72px;
+    background-color: #101010;
+    border: solid red 1px;
+}
+.footer-bottom-text {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.footer-icon-tik-tok {
+    width: 36px;
+    height: 36px;
+    background: url(../Project_FD1/Pictures/tiktok.svg) center center;
+    background-repeat: no-repeat;
+    margin-left: 550px;
+}
+.footer-icon-youtube {
+    width: 36px;
+    height: 36px;
+    background: url(../Project_FD1/Pictures/youtube.svg) center center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+.footer-icon-instagramm {
+    width: 36px;
+    height: 36px;
+    background: url(../Project_FD1/Pictures/instagr.svg) center center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+.footer-bottom-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+@media screen and (max-width:1080px)
+{
+.footer-icon-tik-tok {
+    margin-left: 450px;
+}
+}
+@media screen and (max-width:980px)
+{
+.footer-icon-tik-tok {
+    margin-left: 120px;
+}
+}
+@media screen and (max-width:640px)
+{
+.footer-bottom-text {
+    display: none;
+}
+.footer-icon-tik-tok {
+    margin-left: 0px;
+}
+}

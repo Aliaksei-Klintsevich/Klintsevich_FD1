@@ -25,7 +25,7 @@
     top: -6px;
     left: -35px;
 }
-.header-list {
+.header-container {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -53,10 +53,13 @@
     left: 48px;
 }
 .header-location {
-    background: url(../Project_FD1/Pictures/Vector_icon.gif) center left;
-    background-repeat: no-repeat;
-    padding-left: 22px;
-    margin-left: 45px;
+   position: relative;
+   padding-left: 120px;
+}
+.header-location-icon {
+    position: absolute;
+    top: 5px;
+    left: 95px;
 }
 .header-location-addreas {
     font-family: 'Ubuntu';
@@ -64,44 +67,66 @@
     font-weight: 400;
 }
 .header-number {
-    width: 150px;
-    margin-left: 45px;
-    padding-left: 20px;
-    background: url(../Project_FD1/Pictures/icons8-whatsapp-19.png) top left;
-    background-repeat: no-repeat;
+    padding-left: 60px;
+    position: relative;
 }
 .header-number-tel {
     font-family: 'Ubuntu';
     font-size: 15px;
     font-weight: bold;
 }
+.header-number-icon {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+}
 .header-call {
     font-family: 'Ubuntu';
     font-size: 13px;
     font-weight: 500;
 }
-.header-instagramm {
-    width: 36px;
-    height: 36px;
-    background: url(../Project_FD1/Pictures/instagr.svg) center center;
-    background-repeat: no-repeat;
+.header-number-inst-icon {
+    position: absolute;
+    top: 0px;
+    right: -40px;
 }
-@media screen and (max-width:980px)
+@media screen and (max-width:1100px)
 {
+.logoname {
+    padding-right: 10px;
+}
 .header-location {
-display: none;
+    position: relative;
+    padding-left: 40px;
+ }
+ .header-location-icon {
+    position: absolute;
+    top: 5px;
+    left: 18px;
 }
 .header-number {
-display: none;
+    padding-left: 20px;
+    position: relative;
+}
+.header-number-icon {
+    position: absolute;
+    top: 0px;
+    left: 3px;
+}
+}
+@media screen and (max-width:950px)
+{
+.header-location {
+    display: none;
+}
+.header-number {
+    display: none;
 }
 .logoname {
     padding-right: 70px;
 }
-.header-instagramm {
-    margin-left: 45px;
 }
-}
-@media screen and (max-width:640px)
+@media screen and (max-width:600px)
 {
 .header-location {
     display: none;
@@ -119,9 +144,6 @@ display: none;
 }
 .header-calculator {
     font-size: 10px;
-}
-.header-instagramm {
-    display: none;
 }
 }
 @media screen and (max-width:480px)
@@ -149,36 +171,7 @@ display: none;
 .header-calculator-icon {
     left: 5px;
 }
-.header-instagramm {
-    display: none;
 }
-}
-@media screen and (max-width:345px)
-{
-.header-location {
-    display: none;
-}
-.header-number {
-    display: none;
-}
-.logoname {
-    font-size: 10px;
-    padding-right: 5px;
-}
-.header-logo-icon {
-    position: absolute;
-    top: -15px;
-    left: -28px;
-}
-.header-calculator {
-    padding-right: 2px;
-    padding-left: 2px;
-    font-size: 10px;
-}
-.header-calculator-icon {
-    display: none;
-}
-.header-instagramm {
-    display: none;
-}
-}
+
+
+

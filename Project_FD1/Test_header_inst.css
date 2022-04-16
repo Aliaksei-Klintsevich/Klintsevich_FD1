@@ -25,7 +25,7 @@
     top: -6px;
     left: -35px;
 }
-.header-list {
+.header-container {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -67,8 +67,9 @@
     width: 150px;
     margin-left: 45px;
     padding-left: 20px;
-    background: url(../Project_FD1/Pictures/icons8-whatsapp-19.png) top left;
+    background: url(../Project_FD1/Pictures/icons8-whatsapp-19.png) top left, url(../Project_FD1/Pictures/instagr.svg) center right;
     background-repeat: no-repeat;
+    padding-right: 20px;
 }
 .header-number-tel {
     font-family: 'Ubuntu';
@@ -79,12 +80,6 @@
     font-family: 'Ubuntu';
     font-size: 13px;
     font-weight: 500;
-}
-.header-instagramm {
-    width: 36px;
-    height: 36px;
-    background: url(../Project_FD1/Pictures/instagr.svg) center center;
-    background-repeat: no-repeat;
 }
 @media screen and (max-width:980px)
 {
@@ -97,11 +92,8 @@ display: none;
 .logoname {
     padding-right: 70px;
 }
-.header-instagramm {
-    margin-left: 45px;
 }
-}
-@media screen and (max-width:640px)
+@media screen and (max-width:600px)
 {
 .header-location {
     display: none;
@@ -119,9 +111,6 @@ display: none;
 }
 .header-calculator {
     font-size: 10px;
-}
-.header-instagramm {
-    display: none;
 }
 }
 @media screen and (max-width:480px)
@@ -149,9 +138,6 @@ display: none;
 .header-calculator-icon {
     left: 5px;
 }
-.header-instagramm {
-    display: none;
-}
 }
 @media screen and (max-width:345px)
 {
@@ -176,9 +162,6 @@ display: none;
     font-size: 10px;
 }
 .header-calculator-icon {
-    display: none;
-}
-.header-instagramm {
     display: none;
 }
 }
