@@ -1,7 +1,9 @@
+/* Нижняя часть футера */
+
 .footer-bottom {
     height: 72px;
     background-color: #101010;
-    border: solid red 1px;
+    border: solid black 1px;
 }
 .footer-bottom-text {
     font-family: 'Ubuntu';
@@ -38,6 +40,9 @@
     flex-direction: row;
     flex-wrap: nowrap;
 }
+
+/* Адаптив под мобильные устройства (нижняя часть футера) */
+
 @media screen and (max-width:1080px)
 {
 .footer-icon-tik-tok {
@@ -59,3 +64,184 @@
     margin-left: 0px;
 }
 }
+
+/* Верхняя часть футера */
+
+.footer-top {
+    height: 415px;
+    
+    background: url(../Project_FD1/Pictures/footer.png) center center;
+    background-repeat: no-repeat;
+}
+.footer-title {
+    font-family: 'Ubuntu';
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer-area {
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+}
+.area-comment {
+    height: 110px;
+}
+.btn {
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #2E4B85;
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    margin-left: -240px;
+}
+.btn-right {
+    position: absolute;
+    left: -235px;
+    top: -75px;
+}
+.btn-right-container {
+    position: relative;
+}
+.footer-area-list-one {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.footer-area-list-two {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.footer-area-list-three {
+    display: flex;
+    justify-content: center;
+}
+.footer-number {
+    height: 40px;
+    width: 305px;
+    text-align: center;
+    background: url(../Project_FD1/Pictures/Footer_number.svg) center left;
+    background-repeat: no-repeat;
+    margin-left: 173px;
+}
+.area {
+    margin-left: 70px;
+}
+.footer-number-text {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.small {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.footer-logo {
+    height: 50px;
+    width: 330px;
+    background: url(../Project_FD1/Pictures/logo_text.svg) center right no-repeat,
+    url(../Project_FD1/Pictures/logo_2.svg) center left no-repeat;
+    margin-left: 510px;
+    margin-top: -10px;
+}
+.footer-logo-right {
+    position: absolute;
+}
+.footer-adapt {
+    display: none;
+}
+
+/* Адаптив под мобильные устройства (верхняя часть футера) */
+
+@media screen and (max-width:980px)
+{
+.footer-adapt {
+   display: flex;
+   justify-content: center;
+}
+.footer-forms {
+    display: none;
+}
+.btn {
+    margin-left: 0px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.footer-number {
+    margin-left: 0px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.area {
+    margin-left: 0px;
+}
+.btn-right {
+    position: static;
+}
+.footer-logo {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.footer-area {
+    height: 20px;
+    margin-bottom: 10px;
+}
+.area-comment {
+    height: 60px;
+}
+.footer-number-text {
+    font-size: 18px;
+}
+.small {
+    font-size: 10px;
+}
+body {
+    position: relative;
+}
+.footer-title {
+    font-size: 24px;
+}
+}
+@media screen and (max-width:480px)
+{
+.footer-area {
+    width: 300px;
+}
+.btn {
+    width: 300px;
+}
+.footer-title {
+    font-size: 20px;
+}
+.footer-logo {
+    width: 195px;
+    background: url(../Project_FD1/Pictures/logo_2.svg) center right no-repeat;
+}
+}
+@media screen and (max-width:380px)
+{
+.footer-area {
+    width: 240px;
+}
+.btn {
+    width: 240px;
+}
+.footer-title {
+    font-size: 16px;
+}
+.footer-logo {
+    width: 180px;
+    background: url(../Project_FD1/Pictures/logo_2.svg) center right no-repeat;
+}
+.footer-number {
+    width: 240px;
+}
+}
+
+
+
