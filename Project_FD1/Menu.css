@@ -1,0 +1,85 @@
+ul {
+    list-style: none;
+}
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+.menu li {
+    width: 180px;
+    height: 30px;
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 15px;
+}
+.menu li:first-child {
+    padding-top: 7px;
+}
+.menu {
+    height: 45px;
+    background-color: #4664A0;
+}
+.menu li:not(:first-child):hover {
+    background-color: #1D4596;
+}
+
+@media screen and (max-width:920px)
+{
+.menu li:first-child {
+    display: none;
+}
+}
+@media screen and (max-width:810px)
+{
+.menu ul {
+    justify-content: flex-start;
+    padding-left: 0px;
+}
+}
+@media screen and (max-width:760px)
+{
+.menu ul {
+    flex-direction: column;
+    padding-left: 0px;
+}
+.menu {
+    height: 263px;
+    background: none;
+}
+.menu li:not(:first-child) {
+    text-align: left;
+}
+.menu-adapt {
+    background: url(../Project_FD1/Pictures/bg_adapt_1.gif) center center;
+}
+.menu li {
+    font-size: 34px;
+    color: #FFFFFF;
+    width: 365px;
+    margin: 0 auto;
+    height: 35px;
+}
+}
+@media screen and (max-width:440px)
+{
+.menu li {
+    font-size: 25px;
+    color: #FFFFFF;
+    width: 320px;
+    margin: 0 auto;
+    height: 35px;
+}
+}
+@media screen and (max-width:360px)
+{
+.menu li {
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 250px;
+    margin: 0 auto;
+    height: 35px;
+}
+}

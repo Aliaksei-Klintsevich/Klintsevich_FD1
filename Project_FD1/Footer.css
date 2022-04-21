@@ -69,8 +69,9 @@
 
 .footer-top {
     height: 415px;
-    
+    overflow: hidden;
     background: url(../Project_FD1/Pictures/footer.png) center center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .footer-title {
@@ -96,11 +97,11 @@
     color: #FFFFFF;
     font-family: 'Ubuntu';
     font-weight: 500;
-    margin-left: -240px;
+    margin-left: -80px;
 }
 .btn-right {
     position: absolute;
-    left: -235px;
+    left: -70px;
     top: -75px;
 }
 .btn-right-container {
@@ -140,14 +141,6 @@
 .small {
     font-size: 12px;
     color: #FFFFFF;
-}
-.footer-logo {
-    height: 50px;
-    width: 330px;
-    background: url(../Project_FD1/Pictures/logo_text.svg) center right no-repeat,
-    url(../Project_FD1/Pictures/logo_2.svg) center left no-repeat;
-    margin-left: 510px;
-    margin-top: -10px;
 }
 .footer-logo-right {
     position: absolute;
@@ -219,7 +212,7 @@ body {
     font-size: 20px;
 }
 .footer-logo {
-    width: 195px;
+    width: 190px;
     background: url(../Project_FD1/Pictures/logo_2.svg) center right no-repeat;
 }
 }
@@ -235,7 +228,7 @@ body {
     font-size: 16px;
 }
 .footer-logo {
-    width: 180px;
+    width: 160px;
     background: url(../Project_FD1/Pictures/logo_2.svg) center right no-repeat;
 }
 .footer-number {

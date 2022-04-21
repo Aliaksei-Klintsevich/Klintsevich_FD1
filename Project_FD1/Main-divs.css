@@ -1,0 +1,556 @@
+/* Титульный фон */
+
+.indust-title {
+    height: 560px;
+    background: url(../Project_FD1/Pictures/Main_bg_3.jpg) center center no-repeat;
+    background-size: cover;
+}
+.indust-title-text {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 45px;
+    height: 114px;
+    width: 845px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+.indust-logo {
+    width: 240px;
+    height: 80px;
+    margin: 0 auto;
+    background: url(../Project_FD1/Pictures/logo_2.svg) center top no-repeat, url(../Project_FD1/Pictures/logo_text.svg) center bottom no-repeat;
+}
+.indust-title-text-bottom {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* Наши преимущества */
+
+.advantages {
+    height: 460px;
+    background: url(../Project_FD1/Pictures/main_bg_2.png) center center no-repeat;
+    background-size: cover;
+}
+.advantages-text {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+.advantages li {
+    width: 160px;
+    height: 110px;
+    text-align: center;
+    margin-top: 20px;
+}
+.advantages ul {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.advantages span {
+    color: blue;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Производство сэндвич-панелей */
+
+.production {
+    height: 500px;
+    background: url(../Project_FD1/Pictures/bg_4_gif.gif) center center no-repeat;
+    background-size: cover;
+}
+.production-text {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+.production-list li {
+    height: 240px;
+    width: 264px;
+    background-color: #FFFFFF;
+    margin-top: 40px;
+}
+.production-list {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 35px;
+}
+.production-btn {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 35px;
+}
+.production-btn li {
+    height: 20px;
+    width: 264px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: -15px;
+    padding-top: 5px;
+    background-color: #FFFFFF;
+}
+.production-btn li:hover {
+    background-color: #1D4596;
+}
+.production-one {
+    background: url(../Project_FD1/Pictures/Стеновые\ панели.jpg) center center no-repeat;
+    background-size: cover;
+}
+.production-two {
+    background: url(../Project_FD1/Pictures/Кровельн\ панели.png) center center no-repeat;
+    background-size: cover;
+}
+.production-three {
+    background: url(../Project_FD1/Pictures/Фасонн\ панели.png) center center no-repeat;
+    background-size: cover;
+}
+.production-four {
+    background: url(../Project_FD1/Pictures/Уплотнит\ панели.png) center center no-repeat;
+    background-size: cover;
+}
+
+/* Расчет сэндвич-панелей */
+
+.calculation {
+    height: 320px;
+    background: url(../Project_FD1/Pictures/bg_5.png) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.calculation-item {
+    display: flex;
+    justify-content: space-around;
+}
+.calculation-title {
+    width: 620px;
+    height: 90px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-right: 100px;
+    margin-top: 90px;
+}
+.calculation-calc {
+    width: 226px;
+    padding: 8px;
+    border: solid 1px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #4664A0;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/* Производство металлоконструкций */
+
+.metal {
+    height: 500px;
+    background: url(../Project_FD1/Pictures/bg_6.png) center center no-repeat;
+    background-size: cover;
+}
+.metal-title {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 40px;
+}
+.metal-list {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+.metal-list li {
+    height: 240px;
+    width: 362px;
+    background-color: #FFFFFF;
+    margin-top: 40px;
+}
+.metal-btn {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+.metal-btn li {
+    height: 20px;
+    width: 362px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: -15px;
+    padding-top: 5px;
+    background-color: #FFFFFF;
+}
+.metal-btn li:hover {
+    background-color: #1D4596;
+}
+.metal-one {
+    background: url(../Project_FD1/Pictures/Здания\ под\ ключ.png) center center no-repeat;
+    background-size: cover;
+}
+.metal-two {
+    background: url(../Project_FD1/Pictures/Пожарние\ лестницы.png) center center no-repeat;
+    background-size: cover;
+}
+.metal-three {
+    background: url(../Project_FD1/Pictures/Проектирование.png) center center no-repeat;
+    background-size: cover;
+}
+
+/* О нас */
+
+.about {
+    height: 370px;
+    background: url(../Project_FD1/Pictures/bg_7.png) center center no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 40px;
+}
+.about-item {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.about-text {
+    width: 655px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+/* Адаптив под мобильные устройства */
+
+@media screen and (max-width:1200px)
+{
+.production-list li {
+    height: 200px;
+    width: 220px;
+}
+.production-btn li {
+    width: 220px;
+    height: 40px;
+}
+.calculation-title {
+    font-size: 28px;
+    margin-right: 0px;
+    width: 470px;
+}
+.about-text {
+    width: 380px;
+}
+iframe {
+    width: 360px;
+}
+.about-item {
+    margin-left: 50px;
+}
+}
+@media screen and (max-width:1220px)
+{
+.metal-list li {
+    height: 200px;
+    width: 300px;
+}
+.metal-btn li {
+    width: 300px;
+    height: 40px;
+}
+}
+@media screen and (max-width:1040px)
+{
+.metal-list li {
+    height: 170px;
+    width: 250px;
+}
+.metal-btn li {
+    width: 250px;
+    height: 40px;
+}
+.metal {
+    height: 400px;
+}
+}
+@media screen and (max-width:890px)
+{
+.metal-list li {
+    height: 140px;
+    width: 200px;
+}
+.metal-btn li {
+    width: 200px;
+    height: 40px;
+}
+.metal {
+    height: 350px;
+}
+.metal-title {
+    font-size: 28px;
+}
+}
+@media screen and (max-width:730px)
+{
+.metal-list {
+    display: none;
+}
+.metal-btn {
+    display: block;
+}
+.metal-btn li {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 200px;
+}
+.metal {
+    height: 270px;
+}
+.metal-title {
+    font-size: 16px;
+    color: #1D4596;
+}
+}
+@media screen and (max-width:1020px)
+{
+.production-list li {
+    height: 160px;
+    width: 180px;
+}
+.production-btn li {
+    width: 180px;
+}
+.production {
+    height: 400px;
+}
+}
+@media screen and (max-width:850px)
+{
+.production-list li {
+    height: 120px;
+    width: 140px;
+}
+.production-btn li {
+    width: 140px;
+}
+.production {
+    height: 300px;
+}
+.production-text {
+    font-size: 28px;
+    padding-top: 20px;
+}
+.production-list li {
+    margin-top: 20px;
+}
+.about-text {
+    width: 370px;
+}
+iframe {
+    width: 325px;
+}
+.about-item {
+    margin-left: 50px;
+}
+}
+@media screen and (max-width:680px)
+{
+.production-list {
+    display: none;
+}
+.production-btn {
+    display: block;
+}
+.production-btn li {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 240px;
+}
+.production-text {
+    font-size: 16px;
+}
+}
+@media screen and (max-width:360px)
+{
+.production-btn li {
+    width: 180px;
+}
+}
+@media screen and (max-width:1100px)
+{
+.advantages ul {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+}
+@media screen and (max-width:940px)
+{
+.advantages ul {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.calculation-title {
+    width: 235px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 20px;
+}
+.calculation-calc {
+    width: 160px;
+}
+}
+@media screen and (max-width:880px)
+{
+.indust-title-text {
+    font-size: 30px;
+    width: 600px;
+}
+}
+@media screen and (max-width:760px)
+{
+.indust-title {
+    display: none;
+}
+.indust-title-text {
+    display: none;
+}
+.indust-logo {
+    display: none;
+}
+.indust-title-text-bottom {
+    display: none;
+}
+.advantages ul {
+    flex-wrap: wrap;
+}
+.advantages-text {
+   font-size: 28px;
+}
+.calculation-pict {
+    display: none;
+}
+.calculation-item {
+    display: block;
+    padding: 0px;
+}
+.calculation-title {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.calculation-calc {
+    text-align: center;
+    margin: 0 auto;
+}
+.calculation {
+    height: 200px;
+}
+.about-item {
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+}
+.about {
+    height: 600px;
+}
+.about-text {
+    margin: 0 auto;
+}
+iframe {
+    width: 400px;
+}
+.about {
+    font-size: 28px;
+    padding-top: 20px;
+}
+}
+@media screen and (max-width:460px)
+{
+iframe {
+    width: 320px;
+}
+.about {
+    font-size: 24px;
+    padding-top: 20px;
+}
+.about-text {
+    width: 320px;
+}
+}
+@media screen and (max-width:350px)
+{
+iframe {
+    display: none;
+}
+.about-text {
+    width: 270px;
+    font-size: 11px;
+}
+.about {
+    height: 300px;
+}
+}
+@media screen and (max-width:730px)
+{
+.advantages img {
+    display: none;
+}
+.advantages li {
+    height: 50px;
+    width: 130px;
+}
+.advantages span {
+    font-size: 14px;
+}
+.advantages {
+    height: 320px;
+}
+}
+@media screen and (max-width:610px)
+{
+.advantages-text {
+    font-size: 20px;
+    padding-top: 20px;
+}
+.advantages br {
+    display: none;
+}
+.advantages ul {
+    display: block;
+}
+.advantages li {
+    width: 100%;
+    height: 15px;
+    text-align: left;
+}
+.advantages {
+    height: 360px;
+}
+}
