@@ -25,7 +25,9 @@ ul {
 .menu li:not(:first-child):hover {
     background-color: #1D4596;
 }
-
+a {
+    text-decoration: none;
+}
 @media screen and (max-width:920px)
 {
 .menu li:first-child {

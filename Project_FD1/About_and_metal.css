@@ -1,0 +1,391 @@
+/* Бесплатная консультация */
+
+.consultation {
+    height: 350px;
+    background: url(../Project_FD1/Pictures/bg_9.png) center center no-repeat;
+    background-size: cover;
+}
+.consultation-text {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 60px;
+    color: #FFFFFF;
+}
+.consultation-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin-top: 60px;
+}
+.consultation-btn {
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #2E4B85;
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+.consultation-area {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+/* О нас (также используется для страницы "Металлоконструкции") */
+
+.about-page {
+    height: 800px;
+    width: 1020px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.about-page-title-one {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 25px;
+}
+.about-page-text-one {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    color: #6F6F6F;
+    padding-left: 20px;
+}
+.about-page-item {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+.about-page-text-two {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    color: #6F6F6F;
+    padding-right: 30px;
+}
+.about-page-title-two {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 20px;
+}
+.about-btn {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+/* Производство металлоконструкций */
+
+.product-metal-page {
+    height: 1200px;
+    width: 1020px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.product-metal-title {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 40px;
+}
+.product-metal-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+.product-metal-list li {
+    height: 220px;
+    width: 300px;
+    background-color: #FFFFFF;
+    margin-top: 40px;
+}
+.product-metal-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+.product-metal-btn li {
+    height: 30px;
+    width: 300px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: -15px;
+    padding-top: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 15px rgba(122,122,122,0.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.product-metal-btn li:hover {
+    background-color: #1D4596;
+}
+.product-metal-one {
+    background: url(../Project_FD1/Pictures/Здания\ под\ ключ.png) center center no-repeat;
+    background-size: cover;
+    border-top-left-radius:  10px;
+    border-top-right-radius: 10px;
+}
+.product-metal-two {
+    background: url(../Project_FD1/Pictures/Пожарние\ лестницы.png) center center no-repeat;
+    background-size: cover;
+    border-top-left-radius:  10px;
+    border-top-right-radius: 10px;
+}
+.product-metal-three {
+    background: url(../Project_FD1/Pictures/Проектирование.png) center center no-repeat;
+    background-size: cover;
+    border-top-left-radius:  10px;
+    border-top-right-radius: 10px;
+}
+.product-pict {
+    box-shadow: 0 0 15px rgba(122,122,122,0.5);
+}
+
+
+
+/* Адаптив под мобильные устройства */
+
+@media screen and (max-width:1290px)
+{
+.consultation-btn {
+    width: 300px;
+}
+.consultation-area {
+    width: 300px;
+}
+}
+@media screen and (max-width:1000px)
+{
+.consultation-list {
+    flex-direction: column;
+}
+.consultation-list li {
+    margin: 0 auto;
+}
+}
+@media screen and (max-width:400px)
+{
+.consultation-list {
+    flex-direction: column;
+}
+.consultation-list li {
+    margin: 0 auto;
+}
+.consultation-area {
+    width: 240px;
+}
+.consultation-btn {
+    width: 240px;
+}
+.consultation-text {
+    font-size: 20px;
+}
+}
+@media screen and (max-width:1070px)
+{
+.about-pict-one {
+    width: 400px;
+}
+.about-pict-two {
+    width: 500px;
+}
+.about-page {
+    width: 900px;
+    height: 700px;
+}
+.product-metal-page {
+    width: 900px;
+}
+.product-metal-list li {
+    height: 200px;
+    width: 270px;
+}
+.product-metal-btn li {
+    width: 270px;
+}
+}
+@media screen and (max-width:960px)
+{
+.product-metal-page {
+    width: 740px;
+    height: 1500px;
+}
+.product-metal-list li {
+    height: 170px;
+    width: 220px;
+}
+.product-metal-btn li {
+    width: 220px;
+    height: 45px;
+}
+}
+@media screen and (max-width:765px)             
+{
+.product-metal-list li {
+    display: none;
+}
+.product-metal-page {
+    height: 1470px;
+    width: 650px;
+}
+.product-metal-btn {
+    flex-direction: column;
+}
+.product-metal-btn li {
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.product-metal-title {
+    color: #FFFFFF;
+    text-align: center;
+}
+}
+@media screen and (max-width:690px)             
+{
+.product-metal-list li {
+    display: none;
+}
+.product-metal-page {
+    height: 1570px;
+    width: 500px;
+}
+.product-metal-btn {
+    flex-direction: column;
+}
+.product-metal-btn li {
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.product-metal-title {
+    color: #FFFFFF;
+    text-align: center;
+}
+}
+@media screen and (max-width:540px)             
+{
+.product-metal-list li {
+    display: none;
+}
+.product-metal-page {
+    height: 1890px;
+    width: 350px;
+}
+.product-metal-btn {
+    flex-direction: column;
+}
+.product-metal-btn li {
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.product-metal-title {
+    color: #FFFFFF;
+    text-align: center;
+}
+.pict-correct {
+    width: 350px;
+}
+}
+@media screen and (max-width:390px)             
+{
+.product-metal-list li {
+    display: none;
+}
+.product-metal-page {
+    height: 2000px;
+    width: 260px;
+}
+.product-metal-btn {
+    flex-direction: column;
+}
+.product-metal-btn li {
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.product-metal-title {
+    color: #FFFFFF;
+    text-align: center;
+}
+.pict-correct {
+    width: 260px;
+}
+}
+@media screen and (max-width:940px)
+{
+.about-page-item {
+    flex-direction: column;
+}
+.about-page {
+    height: 1000px;
+    width: 600px;
+}
+.about-page-text-one {
+    padding: 0px;
+    padding-top: 20px;
+}
+.about-page-text-two {
+    padding-bottom: 20px;
+}
+}
+@media screen and (max-width:760px)
+{
+.about-page-item {
+    flex-direction: column;
+}
+.about-page {
+    height: 1000px;
+    width: 500px;
+}
+.about-page-text-one {
+    padding: 0px;
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+.about-page-text-two {
+    padding-bottom: 20px;
+    color: #FFFFFF;
+}
+.about-pict-one {
+    width: 300px;
+}
+.about-pict-two {
+    width: 350px;
+}
+.about-page-title-one {
+    color: #FFFFFF;
+}
+.about-page-title-two {
+    color: #FFFFFF;
+}
+}
+@media screen and (max-width:550px)
+{
+.about-page {
+    height: 1200px;
+    width: 350px;
+}
+}
+@media screen and (max-width:400px)
+{
+.about-page {
+    height: 1370px;
+    width: 260px;
+}
+.about-pict-two {
+    width: 260px;
+}
+.about-pict-one {
+    width: 260px;
+}
+}
