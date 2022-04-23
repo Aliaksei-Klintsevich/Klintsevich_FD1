@@ -1,0 +1,177 @@
+.header {
+    height: 75px;
+    border: 1px solid red;
+}
+@font-face {
+	font-family: 'Roboto Condensed'; 
+	src: local('Roboto Condensed'),
+	url(../Project_FD1/Font/RobotoCondensed-Bold.ttf); 
+}
+@font-face {
+	font-family: 'Ubuntu'; 
+	src: local('Ubuntu'),
+	url(../Project_FD1/Font/Ubuntu-Bold.ttf); 
+}
+.logoname {
+    font-size: 25px;
+    font-weight: bold;
+    color: #4664A0;
+    font-family: 'Roboto Condensed';
+    position: relative;
+    padding-right: 45px;
+}
+.header-logo-icon {
+    position: absolute;
+    top: -6px;
+    left: -35px;
+}
+.header-container {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.header-calculator {
+    background-color: #2E4B85;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    padding-right: 34px;
+    padding-left: 65px;
+    font-size: 13px;
+    position: relative;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+.header-calculator-icon {
+    position: absolute;
+    top: 10px;
+    left: 48px;
+}
+.header-location {
+   position: relative;
+   padding-left: 120px;
+}
+.header-location-icon {
+    position: absolute;
+    top: 5px;
+    left: 95px;
+}
+.header-location-addreas {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    font-weight: 400;
+}
+.header-number {
+    padding-left: 60px;
+    position: relative;
+}
+.header-number-tel {
+    font-family: 'Ubuntu';
+    font-size: 15px;
+    font-weight: bold;
+}
+.header-number-icon {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+}
+.header-call {
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    font-weight: 500;
+}
+.header-number-inst-icon {
+    position: absolute;
+    top: 0px;
+    right: -40px;
+}
+@media screen and (max-width:1100px)
+{
+.logoname {
+    padding-right: 10px;
+}
+.header-location {
+    position: relative;
+    padding-left: 40px;
+ }
+ .header-location-icon {
+    position: absolute;
+    top: 5px;
+    left: 18px;
+}
+.header-number {
+    padding-left: 20px;
+    position: relative;
+}
+.header-number-icon {
+    position: absolute;
+    top: 0px;
+    left: 3px;
+}
+}
+@media screen and (max-width:950px)
+{
+.header-location {
+    display: none;
+}
+.header-number {
+    display: none;
+}
+.logoname {
+    padding-right: 70px;
+}
+}
+@media screen and (max-width:600px)
+{
+.header-location {
+    display: none;
+}
+.header-number {
+    display: none;
+}
+.logoname {
+    font-size: 20px;
+}
+.header-logo-icon {
+    position: absolute;
+    top: -9px;
+    left: -35px;
+}
+.header-calculator {
+    font-size: 10px;
+}
+}
+@media screen and (max-width:480px)
+{
+.header-location {
+    display: none;
+}
+.header-number {
+    display: none;
+}
+.logoname {
+    font-size: 20px;
+    padding-right: 5px;
+}
+.header-logo-icon {
+    position: absolute;
+    top: -9px;
+    left: -35px;
+}
+.header-calculator {
+    padding-right: 10px;
+    padding-left: 20px;
+    font-size: 10px;
+}
+.header-calculator-icon {
+    left: 5px;
+}
+}
+
+
+

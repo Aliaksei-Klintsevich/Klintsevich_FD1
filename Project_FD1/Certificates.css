@@ -1,0 +1,71 @@
+/* Наши сертификаты */
+
+.certificates {
+    height: 550px;
+    background-color: #323232;
+}
+.certificates-text {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+.certificates-list li {
+    background-color: #FFFFFF;
+    margin-top: 40px;
+}
+.certificates-list {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 35px;
+}
+.certificates-pict {
+    width: 266px;
+    height: 378px;
+}
+
+/* Адаптив под мобильные устройства */
+
+@media screen and (max-width:1210px)
+{
+.certificates-pict {
+    height: 328px;
+    width: 216px;
+}
+.certificates {
+    height: 500px;
+}
+}
+@media screen and (max-width:990px)
+{
+.certificates-pict {
+    height: 270px;
+    width: 160px;
+}
+.certificates {
+    height: 470px;
+}
+}
+@media screen and (max-width:760px)
+{
+.certificates-list {
+    flex-direction: column;
+}
+.certificates-list li {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.certificates-pict {
+    height: 280px;
+    width: 180px;
+}
+.certificates {
+    height: 1300px;
+}
+.certificates-text {
+    font-size: 24px;
+    padding-top: 20px;
+}
+}

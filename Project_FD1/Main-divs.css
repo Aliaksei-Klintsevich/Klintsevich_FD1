@@ -248,6 +248,50 @@
     margin-left: 15px;
 }
 
+/* Наши партнеры */
+
+.partners {
+    height: 900px;
+    background: url(../Project_FD1/Pictures/bg_8.png) center center no-repeat;
+    background-size: cover;
+}
+.partners-text {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 40px;
+}
+.partners-list li {
+    height: 58px;
+    margin-top: 40px;
+}
+.partners-list {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 35px;
+}
+.partners-pict {
+    height: 58px;
+    width: 200px;
+}
+.partners-pict-prod {
+    height: 181px;
+    width: 272px;
+}
+.partners-list-prod li {
+    height: 181px;
+    margin-top: 40px;
+}
+.partners-list-prod {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 35px;
+}
+.partners-adaptive {
+    display: none;
+}
+
 /* Адаптив под мобильные устройства */
 
 @media screen and (max-width:1200px)
@@ -552,5 +596,124 @@ iframe {
 }
 .advantages {
     height: 360px;
+}
+}
+@media screen and (max-width:760px)
+{
+.partners {
+    height: 900px;
+}
+.partners-list {
+    flex-direction: column;
+}
+.partners-list li {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.partners-text {
+    font-size: 24px;
+}
+}
+@media screen and (max-width:1050px)
+{
+.partners-pict {
+    width: 140px;
+}
+.partners-text {
+    font-size: 30px;
+}
+}
+@media screen and (max-width:1210px)
+{
+.partners-pict-prod {
+    height: 160px;
+    width: 220px;
+}
+.partners {
+    height: 800px;
+}
+}
+@media screen and (max-width:1010px)
+{
+.partners-list-prod {
+    display: none;
+}
+.partners-adaptive {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+.partners {
+    height: 1100px;
+}
+.partners-pict-prod {
+    height: 180px;
+    width: 280px;
+}
+}
+@media screen and (max-width:765px)
+{
+.partners-list-prod {
+    display: none;
+}
+.partners-adaptive {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+.partners {
+    height: 1300px;
+}
+.partners-pict-prod {
+    height: 170px;
+    width: 260px;
+}
+}
+@media screen and (max-width:640px)
+{
+.partners-list-prod {
+    display: none;
+}
+.partners-adaptive {
+    flex-direction: column;
+    padding: 0px;
+}
+.partners {
+    height: 2000px;
+}
+.partners-pict-prod {
+    height: 170px;
+    width: 260px;
+}
+.partners-text {
+    font-size: 30px;
+    padding-top: 20px;
+}
+.partners-adaptive li {
+    margin: 0 auto;
+}
+}
+@media screen and (max-width:440px)
+{
+.partners-list-prod {
+    display: none;
+}
+.partners-adaptive {
+    flex-direction: column;
+    padding: 0px;
+}
+.partners {
+    height: 1700px;
+}
+.partners-pict-prod {
+    height: 140px;
+    width: 200px;
+}
+.partners-text {
+    font-size: 20px;
+    padding-top: 20px;
+}
+.partners-adaptive li {
+    margin: 0 auto;
 }
 }
