@@ -1,0 +1,200 @@
+/* Нижняя часть футера */
+
+.footer-bottom {
+    height: 72px;
+    background-color: #101010;
+    border: solid black 1px;
+}
+.footer-bottom-text {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.footer-icon-tik-tok {
+    width: 36px;
+    height: 36px;
+    background: url(../Project_FD1/Pictures/tiktok.svg) center center;
+    background-repeat: no-repeat;
+    margin-left: 550px;
+}
+.footer-icon-youtube {
+    width: 36px;
+    height: 36px;
+    background: url(../Project_FD1/Pictures/youtube.svg) center center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+.footer-icon-instagramm {
+    width: 36px;
+    height: 36px;
+    background: url(../Project_FD1/Pictures/instagr.svg) center center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+.footer-bottom-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+/* Адаптив под мобильные устройства (нижняя часть футера) */
+
+@media screen and (max-width:1080px)
+{
+.footer-icon-tik-tok {
+    margin-left: 450px;
+}
+}
+@media screen and (max-width:980px)
+{
+.footer-icon-tik-tok {
+    margin-left: 120px;
+}
+}
+@media screen and (max-width:640px)
+{
+.footer-bottom-text {
+    display: none;
+}
+.footer-icon-tik-tok {
+    margin-left: 0px;
+}
+}
+
+/* Верхняя часть футера */
+
+.footer-top {
+    height: 415px;
+    overflow: hidden;
+    background: url(../Project_FD1/Pictures/footer.png) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-title {
+    font-family: 'Ubuntu';
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer-area {
+    height: 40px;
+    width: 395px;
+    border-radius: 10px;
+}
+.area-comment {
+    height: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn {
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #2E4B85;
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+.btn-right-container {
+    position: relative;
+}
+.footer-area-list-one {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.footer-area-list-two {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.footer-area-list-three {
+    display: flex;
+    justify-content: center;
+}
+.footer-number {
+    height: 40px;
+    width: 305px;
+    text-align: center;
+    background: url(../Project_FD1/Pictures/Footer_number.svg) center left;
+    background-repeat: no-repeat;
+    margin-left: 173px;
+    margin-bottom: 20px;
+}
+.area {
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+.footer-number-text {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.small {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.footer-forms {
+    display: flex;
+    justify-content: center;
+}
+.footer-logo {
+    margin: 0 auto;
+    width: 325px;
+}
+/* Адаптив под мобильные устройства (верхняя часть футера) */
+
+@media screen and (max-width:980px)
+{
+.footer-forms {
+    flex-direction: column;
+}
+.footer-top {
+    height: 580px;
+}
+form {
+    margin: 0 auto;
+}
+.footer-number {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.area {
+    margin-left: 0px;
+}
+}
+@media screen and (max-width:680px)
+{
+.footer-title {
+    font-size: 24px;
+}
+}
+@media screen and (max-width:480px)
+{
+.footer-title {
+    font-size: 16px;
+}
+.footer-logo {
+    display: none;
+}
+.footer-area {
+    width: 255px;
+}
+.btn {
+    width: 260px;
+}
+.footer-top {
+    height: 500px;
+}
+.footer-number {
+    width: 260px;
+    margin-bottom: 30px;
+}
+}
+
