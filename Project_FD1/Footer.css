@@ -83,11 +83,13 @@
 }
 .footer-area {
     height: 40px;
-    width: 400px;
+    width: 395px;
     border-radius: 10px;
 }
 .area-comment {
     height: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .btn {
     height: 40px;
@@ -97,12 +99,6 @@
     color: #FFFFFF;
     font-family: 'Ubuntu';
     font-weight: 500;
-    margin-left: -80px;
-}
-.btn-right {
-    position: absolute;
-    left: -70px;
-    top: -75px;
 }
 .btn-right-container {
     position: relative;
@@ -128,9 +124,11 @@
     background: url(../Project_FD1/Pictures/Footer_number.svg) center left;
     background-repeat: no-repeat;
     margin-left: 173px;
+    margin-bottom: 20px;
 }
 .area {
     margin-left: 70px;
+    margin-bottom: 10px;
 }
 .footer-number-text {
     font-family: 'Ubuntu';
@@ -142,97 +140,61 @@
     font-size: 12px;
     color: #FFFFFF;
 }
-.footer-logo-right {
-    position: absolute;
+.footer-forms {
+    display: flex;
+    justify-content: center;
 }
-.footer-adapt {
-    display: none;
+.footer-logo {
+    margin: 0 auto;
+    width: 325px;
 }
-
 /* Адаптив под мобильные устройства (верхняя часть футера) */
 
 @media screen and (max-width:980px)
 {
-.footer-adapt {
-   display: flex;
-   justify-content: center;
-}
 .footer-forms {
-    display: none;
+    flex-direction: column;
 }
-.btn {
-    margin-left: 0px;
-    margin-bottom: 10px;
-    height: 30px;
+.footer-top {
+    height: 580px;
+}
+form {
+    margin: 0 auto;
 }
 .footer-number {
     margin-left: 0px;
-    margin-bottom: 15px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .area {
     margin-left: 0px;
 }
-.btn-right {
-    position: static;
 }
-.footer-logo {
-    margin-left: 0px;
-    margin-top: 0px;
-}
-.footer-area {
-    height: 20px;
-    margin-bottom: 10px;
-}
-.area-comment {
-    height: 60px;
-}
-.footer-number-text {
-    font-size: 18px;
-}
-.small {
-    font-size: 10px;
-}
-body {
-    position: relative;
-}
+@media screen and (max-width:680px)
+{
 .footer-title {
     font-size: 24px;
 }
 }
 @media screen and (max-width:480px)
 {
-.footer-area {
-    width: 300px;
-}
-.btn {
-    width: 300px;
-}
-.footer-title {
-    font-size: 20px;
-}
-.footer-logo {
-    width: 190px;
-    background: url(../Project_FD1/Pictures/logo_2.svg) center right no-repeat;
-}
-}
-@media screen and (max-width:380px)
-{
-.footer-area {
-    width: 240px;
-}
-.btn {
-    width: 240px;
-}
 .footer-title {
     font-size: 16px;
 }
 .footer-logo {
-    width: 160px;
-    background: url(../Project_FD1/Pictures/logo_2.svg) center right no-repeat;
+    display: none;
+}
+.footer-area {
+    width: 255px;
+}
+.btn {
+    width: 260px;
+}
+.footer-top {
+    height: 500px;
 }
 .footer-number {
-    width: 240px;
+    width: 260px;
+    margin-bottom: 30px;
 }
 }
 
