@@ -100,9 +100,6 @@
     font-family: 'Ubuntu';
     font-weight: 500;
 }
-.btn-right-container {
-    position: relative;
-}
 .footer-area-list-one {
     display: flex;
     justify-content: center;
