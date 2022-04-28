@@ -328,7 +328,7 @@
     flex-direction: column;
 }
 .about-page {
-    height: 1000px;
+    height: 1020px;
     width: 600px;
 }
 .about-page-text-one {
@@ -380,7 +380,7 @@
 @media screen and (max-width:400px)
 {
 .about-page {
-    height: 1370px;
+    height: 1410px;
     width: 260px;
 }
 .about-pict-two {
