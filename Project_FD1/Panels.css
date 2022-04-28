@@ -1,0 +1,267 @@
+.panels-page-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+.panels-text-one {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    color: #6F6F6F;
+}
+.panels-text-two {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    color: #6F6F6F;
+    padding-right: 30px;
+}
+.panels-title-two {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 20px;
+}
+.panels-title-one {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 25px;
+}
+.panels-page {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.panels-pict-box {
+    width: 400px;
+    height: 290px;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+}
+.panels-pict-box p {
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 16px;
+}
+.panels-pict-one {
+    padding-left: 73px;
+}
+.panels-pict-two {
+    padding-left: 50px;
+}
+.insulation-pict-box {
+    width: 400px;
+}
+.insulation-pict-box p {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 16px;
+}
+.panels-title-three {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 16px;
+}
+.icon-text {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 40px;
+}
+.icon-one-pict {
+    height: 45px;
+    width: 55px;
+    background: url(../Project_FD1/Pictures/Высокая_скорость_монтажа.svg) center top no-repeat, url(../Project_FD1/Pictures/Стрелка.svg) center center no-repeat;
+}
+.icon-one {
+    width: 55px;
+    height: 45px;
+    text-align: center;
+}
+.icon-two {
+    width: 150px;
+    height: 45px;
+    padding-top: 50px;
+    background: url(../Project_FD1/Pictures/Продолжит\ срок\ службы.svg) top center no-repeat;
+    text-align: center;
+}
+.icon-three {
+    width: 70px;
+    height: 45px;
+    padding-top: 50px;
+    background: url(../Project_FD1/Pictures/Небольшой\ вес.svg) top center no-repeat;
+    text-align: center;
+}
+.icon-four {
+    width: 90px;
+    height: 45px;
+    padding-top: 50px;
+    background: url(../Project_FD1/Pictures/Огнестойкость.svg) top center no-repeat;
+    text-align: center;
+}
+.icon-five {
+    width: 95px;
+    height: 45px;
+    padding-top: 50px;
+    background: url(../Project_FD1/Pictures/Устойчивость.svg) top center no-repeat;
+    text-align: center;
+}
+.icon-six {
+    width: 60px;
+    height: 45px;
+    padding-top: 50px;
+    background: url(../Project_FD1/Pictures/Продолжит\ срок\ службы.svg) top center no-repeat;
+    text-align: center;
+}
+
+
+
+
+
+/* Адаптив под мобильные устройства */
+
+@media screen and (max-width:960px)
+{
+.panels-page {
+    width: 740px;
+}
+.panels-pict-box {
+    width: 350px;
+}
+.panels-pict-one {
+    padding-left: 23px;
+}
+.panels-pict-two {
+    padding-left: 0px;
+}
+.insulation-pict-box {
+    width: 350px;
+}
+}
+@media screen and (max-width:765px)
+{
+.panels-page {
+    width: 460px;
+}
+.panels-pict-box {
+    width: 350px;
+}
+.panels-pict-one {
+    padding-left: 23px;
+}
+.panels-pict-two {
+    padding-left: 0px;
+}
+.panels-page-item {
+    flex-direction: column;
+}
+.panels-text-one {
+    color: #FFFFFF;
+}
+.panels-title-one {
+    color: #FFFFFF;
+    text-align: center;
+}
+.panels-title-two {
+    color: #FFFFFF;
+    text-align: center;
+}
+.panels-text-two {
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.panels-page-item li {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.panels-page-item {
+    margin-bottom: 0px;
+}
+.insulation-pict-box p {
+    color: #FFFFFF;
+}
+.panels-title-three {
+    color: #FFFFFF;
+}
+.icon-one {
+    background-position: center left;
+    background-color: #FFFFFF;
+    width: 240px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.icon-one-pict {
+    width: 40px;
+}
+.icon-text-correct {
+    margin-top: -50px;
+}
+.icon-two {
+    background-position: center left;
+    background-color: #FFFFFF;
+    width: 240px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.icon-three {
+    background-position: center left;
+    background-color: #FFFFFF;
+    width: 240px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.icon-four {
+    background-position: center left;
+    background-color: #FFFFFF;
+    width: 240px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.icon-five {
+    background-position: center left;
+    background-color: #FFFFFF;
+    width: 240px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.icon-six {
+    background-position: center left;
+    background-color: #FFFFFF;
+    width: 240px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.list {
+    padding: 0px;
+}
+}
+@media screen and (max-width:500px)
+{
+.panels-page {
+    width: 270px;
+}
+.panels-pict-box {
+    width: 250px;
+}
+.panels-pict-one {
+    padding-left: 0px;
+    width: 250px;
+}
+.panels-pict-two {
+    padding-left: 0px;
+    width: 250px;
+}
+.panels-pict-correct {
+    width: 250px;
+}
+.insulation-pict-box {
+    width: 260px;
+}
+.insulation-pict-box p {
+    color: #FFFFFF;
+}
+.panels-title-three {
+    color: #FFFFFF;
+}
+}
