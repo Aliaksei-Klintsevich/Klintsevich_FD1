@@ -97,7 +97,7 @@
     margin-right: 35px;
 }
 .production-btn li {
-    height: 20px;
+    height: 35px;
     width: 264px;
     font-family: 'Ubuntu';
     font-weight: bold;
@@ -125,6 +125,15 @@
 .production-four {
     background: url(../Project_FD1/Pictures/Уплотнит\ панели.png) center center no-repeat;
     background-size: cover;
+}
+.production-text-correct {
+    padding-top: 15px;
+}
+.production-text-correct-one {
+    padding-top: 15px;
+}
+.production-text-box {
+    color: #FFFFFF;
 }
 
 /* Расчет сэндвич-панелей */
@@ -318,6 +327,9 @@ iframe {
 .about-item {
     margin-left: 50px;
 }
+.production-text-correct-one {
+    padding-top: 0px;
+}
 }
 @media screen and (max-width:1220px)
 {
@@ -371,11 +383,11 @@ iframe {
 }
 .metal-btn li {
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     width: 200px;
 }
 .metal {
-    height: 270px;
+    height: 305px;
 }
 .metal-title {
     font-size: 16px;
@@ -393,6 +405,9 @@ iframe {
 }
 .production {
     height: 400px;
+}
+.production-text-correct {
+    padding-top: 0px;
 }
 }
 @media screen and (max-width:850px)
@@ -434,11 +449,14 @@ iframe {
 }
 .production-btn li {
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     width: 240px;
 }
 .production-text {
     font-size: 16px;
+}
+.production {
+    height: 400px;
 }
 }
 @media screen and (max-width:360px)

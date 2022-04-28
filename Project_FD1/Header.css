@@ -86,6 +86,9 @@
     background: url(../Project_FD1/Pictures/instagr.svg) center center;
     background-repeat: no-repeat;
 }
+summary {
+    cursor: pointer;
+}
 @media screen and (max-width:990px)
 {
 .header-location {
