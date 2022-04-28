@@ -64,7 +64,38 @@
     font-weight: bold;
     font-size: 16px;
 }
-
+.advantages-item-one {
+    background: url(../Project_FD1/Pictures/rating\ 1.svg) center center no-repeat;
+    height: 50px;
+}
+.advantages-item-two {
+    background: url(../Project_FD1/Pictures/calendar\ 1.svg) center center no-repeat;
+    height: 50px;
+}
+.advantages-item-three {
+    background: url(../Project_FD1/Pictures/programmer\ 1.svg) center center no-repeat;
+    height: 50px;
+}
+.advantages-item-four {
+    background: url(../Project_FD1/Pictures/package-box\ 1.svg) center center no-repeat;
+    height: 50px;
+}
+.advantages-item-five {
+    background: url(../Project_FD1/Pictures/area\ 1.svg) center center no-repeat;
+    height: 50px;
+}
+.advantages-item-six {
+    background: url(../Project_FD1/Pictures/measuring-tape\ 1.svg) center center no-repeat;
+    height: 50px;
+}
+.advantages-item-seven {
+    background: url(../Project_FD1/Pictures/rating\ 1.svg) center center no-repeat;
+    height: 50px;
+}
+.advantages-item-eight {
+    background: url(../Project_FD1/Pictures/budget\ 1.svg) center center no-repeat;
+    height: 50px;
+}
 /* Производство сэндвич-панелей */
 
 .production {
@@ -581,9 +612,6 @@ iframe {
 }
 @media screen and (max-width:730px)
 {
-.advantages img {
-    display: none;
-}
 .advantages li {
     height: 50px;
     width: 130px;
@@ -593,6 +621,30 @@ iframe {
 }
 .advantages {
     height: 320px;
+}
+.advantages-item-one {
+    display: none;
+}
+.advantages-item-two {
+    display: none;
+}
+.advantages-item-three {
+    display: none;
+}
+.advantages-item-four {
+    display: none;
+}
+.advantages-item-five {
+    display: none;
+}
+.advantages-item-six {
+    display: none;
+}
+.advantages-item-seven {
+    display: none;
+}
+.advantages-item-eight {
+    display: none;
 }
 }
 @media screen and (max-width:610px)
