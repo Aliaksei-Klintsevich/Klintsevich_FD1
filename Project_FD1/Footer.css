@@ -41,6 +41,7 @@
     flex-wrap: nowrap;
 }
 
+
 /* Адаптив под мобильные устройства (нижняя часть футера) */
 
 @media screen and (max-width:1080px)

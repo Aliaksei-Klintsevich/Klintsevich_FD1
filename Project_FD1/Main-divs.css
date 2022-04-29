@@ -331,6 +331,38 @@
 .partners-adaptive {
     display: none;
 }
+.partners-list-prod > li { 
+    transition: transform 0.5s 
+}
+.partners-list-prod > li:hover { 
+    transform: scale(1.2); 
+}
+.partners-adaptive > li { 
+    transition: transform 0.5s 
+}
+.partners-adaptive > li:hover { 
+    transform: scale(1.2); 
+}
+.partners-list > li { 
+    transition: transform 0.5s 
+}
+.partners-list > li:hover { 
+    transform: scale(1.2); 
+}
+.metal-btn > li { 
+    transition: transform 0.5s 
+}
+.metal-btn > li:hover { 
+    transform: scale(1.2); 
+}
+.production-btn > li { 
+    transition: transform 0.5s 
+}
+.production-btn > li:hover { 
+    transform: scale(1.2); 
+}
+
+
 
 /* Адаптив под мобильные устройства */
 
@@ -398,7 +430,7 @@ iframe {
     height: 40px;
 }
 .metal {
-    height: 350px;
+    height: 365px;
 }
 .metal-title {
     font-size: 28px;
@@ -414,11 +446,11 @@ iframe {
 }
 .metal-btn li {
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     width: 200px;
 }
 .metal {
-    height: 305px;
+    height: 330px;
 }
 .metal-title {
     font-size: 16px;
@@ -480,14 +512,14 @@ iframe {
 }
 .production-btn li {
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 42px;
     width: 240px;
 }
 .production-text {
     font-size: 16px;
 }
 .production {
-    height: 400px;
+    height: 420px;
 }
 }
 @media screen and (max-width:360px)
@@ -608,6 +640,9 @@ iframe {
 }
 .about {
     height: 300px;
+}
+.metal {
+    height: 370px;
 }
 }
 @media screen and (max-width:730px)

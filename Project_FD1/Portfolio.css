@@ -49,6 +49,12 @@
 .adaptive-object {
     display: none;
 }
+.portfolio-item > li img { 
+    transition: transform 0.5s 
+}
+.portfolio-item > li img:hover { 
+    transform: scale(1.1); 
+}
 
 /* Адаптив под мобильные устройства */
 

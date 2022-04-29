@@ -25,6 +25,12 @@
     width: 266px;
     height: 378px;
 }
+.certificates-list > li { 
+    transition: transform 0.5s 
+}
+.certificates-list > li:hover { 
+    transform: scale(1.2); 
+}
 
 /* Адаптив под мобильные устройства */
 

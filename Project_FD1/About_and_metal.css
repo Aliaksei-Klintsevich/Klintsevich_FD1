@@ -148,7 +148,12 @@
 .product-pict {
     box-shadow: 0 0 15px rgba(122,122,122,0.5);
 }
-
+.product-metal-btn > li { 
+    transition: transform 0.5s 
+}
+.product-metal-btn > li:hover { 
+    transform: scale(1.2); 
+}
 
 
 /* Адаптив под мобильные устройства */
@@ -234,7 +239,7 @@
     display: none;
 }
 .product-metal-page {
-    height: 1500px;
+    height: 1520px;
     width: 650px;
 }
 .product-metal-btn {
@@ -242,7 +247,7 @@
 }
 .product-metal-btn li {
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 40px;
     border-radius: 10px;
 }
 .product-metal-title {
@@ -256,7 +261,7 @@
     display: none;
 }
 .product-metal-page {
-    height: 1600px;
+    height: 1630px;
     width: 500px;
 }
 .product-metal-btn {
@@ -264,7 +269,7 @@
 }
 .product-metal-btn li {
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 40px;
     border-radius: 10px;
 }
 .product-metal-title {
@@ -278,7 +283,7 @@
     display: none;
 }
 .product-metal-page {
-    height: 1900px;
+    height: 1930px;
     width: 350px;
 }
 .product-metal-btn {
@@ -286,7 +291,7 @@
 }
 .product-metal-btn li {
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 40px;
     border-radius: 10px;
 }
 .product-metal-title {
@@ -303,7 +308,7 @@
     display: none;
 }
 .product-metal-page {
-    height: 2030px;
+    height: 2060px;
     width: 260px;
 }
 .product-metal-btn {
@@ -311,7 +316,7 @@
 }
 .product-metal-btn li {
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 40px;
     border-radius: 10px;
 }
 .product-metal-title {
