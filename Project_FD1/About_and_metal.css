@@ -28,6 +28,10 @@
     font-family: 'Ubuntu';
     font-weight: 500;
 }
+.consultation-btn a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
 .consultation-area {
     width: 400px;
     height: 40px;
@@ -147,6 +151,10 @@
 }
 .product-pict {
     box-shadow: 0 0 15px rgba(122,122,122,0.5);
+}
+.product-metal-btn a {
+    text-decoration: none;
+    color: black;
 }
 .product-metal-btn > li { 
     transition: transform 0.5s 

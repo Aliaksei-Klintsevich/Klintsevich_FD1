@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../Project_FD1/Menu.css">
     <link rel="stylesheet" href="../Project_FD1/Main-divs.css">
     <link rel="stylesheet" href="../Project_FD1/Normalize.css">
+    <script src='../Project_FD1/javaScript.js'></script>
     <title>ЭРА СТАЛЬ - Главная страница</title>
 </head>
 <body>
@@ -27,7 +28,7 @@
         <span class="header-calculator-icon">
             <img src="../Project_FD1/Pictures/Calculator.svg">
         </span>
-        Калькулятор услуг
+        <a href="#credit">Кредитный калькулятор</a>
     </div>
     </li>
     <li>
@@ -54,22 +55,22 @@
     <div class="menu">
         <ul>
             <li>
-                <a href="../Project_FD1/Main-divs.html" title="Главная страница"><img src="../Project_FD1/Pictures/home_final.gif"></a>
+                <a href="Main-divs.html" title="Главная страница"><img src="../Project_FD1/Pictures/home_final.gif"></a>
             </li>
             <li>
-                <a href="../Project_FD1/Panels.html" title="Сэндвич-панели">Сэндвич-панели</a>
+                <a href="Panels.html" title="Сэндвич-панели">Сэндвич-панели</a>
             </li>
             <li>
-                <a href="../Project_FD1/Product-metal-divs.html" title="Металлоконструкции">Металлоконструкции</a>
+                <a href="Product-metal-divs.html" title="Металлоконструкции">Металлоконструкции</a>
             </li>
             <li>
-                <a href="../Project_FD1/Portfolio.html" title="Портфолио">Портфолио</a>
+                <a href="Portfolio.html" title="Портфолио">Портфолио</a>
             </li>
             <li>
-                <a href="../Project_FD1/Certificates-divs.html" title="Сертификаты">Сертификаты</a>
+                <a href="Certificates-divs.html" title="Сертификаты">Сертификаты</a>
             </li>
             <li>
-                <a href="../Project_FD1/About-div.html" title="Контакты">Контакты</a>
+                <a href="About-div.html" title="Контакты">Контакты</a>
             </li>
         </ul>
     </div>
@@ -139,15 +140,15 @@
                 <summary class="production-text-correct-one">
                     Стеновые сэндвич-панели
                 </summary>
-                <p class="production-text-box">Код услуги: 01</p>
+                <p><a href="#call">Подробнее</a></p>
             </details>
         </li>
         <li>
             <details>
-                <summary class="production-text-correct-one">
+                <summary class="production-text-correct-one prod-two-text">
                     Кровельные сэндвич-панели
                 </summary>
-                <p class="production-text-box">Код услуги: 02</p>
+                <p><a href="#call">Подробнее</a></p>
             </details>
         </li>
         <li>
@@ -155,7 +156,7 @@
                 <summary class="production-text-correct">
                     Фасонные элементы
                 </summary>
-                <p class="production-text-box">Код услуги: 03</p>
+                <p><a href="#call">Подробнее</a></p>
             </details>
         </li>
         <li>
@@ -163,7 +164,7 @@
                 <summary class="production-text-correct">
                     Уплотнители и крепеж
                 </summary>
-                <p class="production-text-box">Код услуги: 04</p>
+                <p><a href="#call">Подробнее</a></p>
             </details>
         </li>
     </ul>
@@ -175,12 +176,12 @@
                 <img src="../Project_FD1/Pictures/Sendvich-paneli.png" alt="Сэндвич-панели" title="Сэндвич-панели">
             </div>    
         </li>
-        <li>
+        <li id="credit">
             <div class="calculation-title">
-                Сделайте расчет услуг прямо сейчас
+                Сделайте расчет услуг в кредит под 20 процентов годовых
             </div>
             <div class="calculation-calc">
-                Калькулятор
+                <a href='javascript:Credit( )'>Калькулятор</a>
             </div>
         </li>
     </ul>
@@ -200,7 +201,7 @@
                 <summary>
                     Строительство зданий под ключ
                 </summary>
-                <p>Код услуги: 05</p>
+                <p><a href="#call">Подробнее</a></p>
             </details>
         </li>
         <li>
@@ -208,7 +209,7 @@
                 <summary>
                     Пожарные лестницы и ограждения
                 </summary>
-                <p>Код услуги: 06</p>
+                <p><a href="#call">Подробнее</a></p>
             </details>
         </li>
         <li>
@@ -216,7 +217,7 @@
                 <summary>
                     Проектирование и строительство
                 </summary>
-                <p>Код услуги: 07</p>
+                <p><a href="#call">Подробнее</a></p>
             </details>
         </li>
     </ul>

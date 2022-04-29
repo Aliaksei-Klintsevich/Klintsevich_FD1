@@ -163,14 +163,15 @@
 .production-text-correct-one {
     padding-top: 15px;
 }
-.production-text-box {
+.production-btn a {
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 /* Расчет сэндвич-панелей */
 
 .calculation {
-    height: 320px;
+    height: 420px;
     background: url(../Project_FD1/Pictures/bg_5.gif) center center no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -200,6 +201,9 @@
     font-family: 'Ubuntu';
     font-weight: 500;
     font-size: 13px;
+}
+.calculation-calc a {
+    text-decoration: none;
 }
 
 /* Производство металлоконструкций */
@@ -231,6 +235,10 @@
     display: flex;
     justify-content: space-around;
     margin-right: 40px;
+}
+.metal-btn a {
+    text-decoration: none;
+    color: black;
 }
 .metal-btn li {
     height: 20px;
@@ -472,6 +480,15 @@ iframe {
 .production-text-correct {
     padding-top: 0px;
 }
+.calculation-title {
+    font-size: 26px;
+}
+}
+@media screen and (max-width:960px)
+{
+.calculation-title {
+    margin-right: 25px;
+}
 }
 @media screen and (max-width:850px)
 {
@@ -501,6 +518,9 @@ iframe {
 .about-item {
     margin-left: 50px;
 }
+.calculation-calc {
+    width: 180px;
+}
 }
 @media screen and (max-width:680px)
 {
@@ -520,6 +540,15 @@ iframe {
 }
 .production {
     height: 420px;
+}
+.production-text-correct {
+    padding-top: 5px;
+}
+.production-text-correct-one {
+    padding-top: 5px;
+}
+.prod-two-text {
+    padding-top: 0px;
 }
 }
 @media screen and (max-width:360px)
@@ -546,9 +575,6 @@ iframe {
     font-family: 'Ubuntu';
     font-weight: bold;
     font-size: 20px;
-}
-.calculation-calc {
-    width: 160px;
 }
 }
 @media screen and (max-width:880px)
@@ -614,6 +640,9 @@ iframe {
 .about {
     font-size: 28px;
     padding-top: 20px;
+}
+.calculation-calc a {
+    color: black;
 }
 }
 @media screen and (max-width:460px)
