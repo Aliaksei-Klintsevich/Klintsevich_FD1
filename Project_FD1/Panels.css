@@ -72,7 +72,7 @@
 .icon-one-pict {
     height: 45px;
     width: 55px;
-    background: url(../Project_FD1/Pictures/Высокая_скорость_монтажа.svg) center top no-repeat, url(../Project_FD1/Pictures/Стрелка.svg) center center no-repeat;
+    background: url(Pictures/Высокая_скорость_монтажа.svg) center top no-repeat, url(Pictures/Стрелка.svg) center center no-repeat;
 }
 .icon-one {
     width: 55px;
@@ -83,35 +83,35 @@
     width: 150px;
     height: 45px;
     padding-top: 50px;
-    background: url(../Project_FD1/Pictures/Продолжит\ срок\ службы.svg) top center no-repeat;
+    background: url(Pictures/Продолжит_срок.svg) top center no-repeat;
     text-align: center;
 }
 .icon-three {
     width: 70px;
     height: 45px;
     padding-top: 50px;
-    background: url(../Project_FD1/Pictures/Небольшой\ вес.svg) top center no-repeat;
+    background: url(Pictures/Небольшойвес.svg) top center no-repeat;
     text-align: center;
 }
 .icon-four {
     width: 90px;
     height: 45px;
     padding-top: 50px;
-    background: url(../Project_FD1/Pictures/Огнестойкость.svg) top center no-repeat;
+    background: url(Pictures/Огнестойкость.svg) top center no-repeat;
     text-align: center;
 }
 .icon-five {
     width: 95px;
     height: 45px;
     padding-top: 50px;
-    background: url(../Project_FD1/Pictures/Устойчивость.svg) top center no-repeat;
+    background: url(Pictures/Устойчивость.svg) top center no-repeat;
     text-align: center;
 }
 .icon-six {
     width: 60px;
     height: 45px;
     padding-top: 50px;
-    background: url(../Project_FD1/Pictures/Продолжит\ срок\ службы.svg) top center no-repeat;
+    background: url(Pictures/Продолжит_срок.svg) top center no-repeat;
     text-align: center;
 }
 

@@ -2,7 +2,7 @@
 
 .indust-title {
     height: 560px;
-    background: url(../Project_FD1/Pictures/Main_bg_3.jpg) center center no-repeat;
+    background: url(Pictures/Main_bg_3.jpg) center center no-repeat;
     background-size: cover;
 }
 .indust-title-text {
@@ -20,7 +20,7 @@
     width: 240px;
     height: 80px;
     margin: 0 auto;
-    background: url(../Project_FD1/Pictures/logo_2.svg) center top no-repeat, url(../Project_FD1/Pictures/logo_text.svg) center bottom no-repeat;
+    background: url(Pictures/logo_2.svg) center top no-repeat, url(Pictures/logo_text.svg) center bottom no-repeat;
 }
 .indust-title-text-bottom {
     font-family: 'Ubuntu';
@@ -36,7 +36,7 @@
 
 .advantages {
     height: 460px;
-    background: url(../Project_FD1/Pictures/main_bg_2.gif) center center no-repeat;
+    background: url(Pictures/main_bg_2.gif) center center no-repeat;
     background-size: cover;
 }
 .advantages-text {
@@ -65,42 +65,42 @@
     font-size: 16px;
 }
 .advantages-item-one {
-    background: url(../Project_FD1/Pictures/rating\ 1.svg) center center no-repeat;
+    background: url(Pictures/rating\ 1.svg) center center no-repeat;
     height: 50px;
 }
 .advantages-item-two {
-    background: url(../Project_FD1/Pictures/calendar\ 1.svg) center center no-repeat;
+    background: url(Pictures/calendar\ 1.svg) center center no-repeat;
     height: 50px;
 }
 .advantages-item-three {
-    background: url(../Project_FD1/Pictures/programmer\ 1.svg) center center no-repeat;
+    background: url(Pictures/programmer\ 1.svg) center center no-repeat;
     height: 50px;
 }
 .advantages-item-four {
-    background: url(../Project_FD1/Pictures/package-box\ 1.svg) center center no-repeat;
+    background: url(Pictures/package-box\ 1.svg) center center no-repeat;
     height: 50px;
 }
 .advantages-item-five {
-    background: url(../Project_FD1/Pictures/area\ 1.svg) center center no-repeat;
+    background: url(Pictures/area\ 1.svg) center center no-repeat;
     height: 50px;
 }
 .advantages-item-six {
-    background: url(../Project_FD1/Pictures/measuring-tape\ 1.svg) center center no-repeat;
+    background: url(Pictures/measuring-tape\ 1.svg) center center no-repeat;
     height: 50px;
 }
 .advantages-item-seven {
-    background: url(../Project_FD1/Pictures/rating\ 1.svg) center center no-repeat;
+    background: url(Pictures/rating\ 1.svg) center center no-repeat;
     height: 50px;
 }
 .advantages-item-eight {
-    background: url(../Project_FD1/Pictures/budget\ 1.svg) center center no-repeat;
+    background: url(Pictures/budget\ 1.svg) center center no-repeat;
     height: 50px;
 }
 /* Производство сэндвич-панелей */
 
 .production {
     height: 500px;
-    background: url(../Project_FD1/Pictures/bg_4_gif.gif) center center no-repeat;
+    background: url(Pictures/bg_4_gif.gif) center center no-repeat;
     background-size: cover;
 }
 .production-text {
@@ -142,19 +142,19 @@
     background-color: #1D4596;
 }
 .production-one {
-    background: url(../Project_FD1/Pictures/Stenov-panely.jpg) center center no-repeat;
+    background: url(Pictures/Stenov-panely.jpg) center center no-repeat;
     background-size: cover;
 }
 .production-two {
-    background: url(../Project_FD1/Pictures/Kroveln-panely.jpeg) center center no-repeat;
+    background: url(Pictures/Kroveln-panely.jpeg) center center no-repeat;
     background-size: cover;
 }
 .production-three {
-    background: url(../Project_FD1/Pictures/Fasonn-panely.jpeg) center center no-repeat;
+    background: url(Pictures/Fasonn-panely.jpeg) center center no-repeat;
     background-size: cover;
 }
 .production-four {
-    background: url(../Project_FD1/Pictures/Uplotnit-paneli.jpeg) center center no-repeat;
+    background: url(Pictures/Uplotnit-paneli.jpeg) center center no-repeat;
     background-size: cover;
 }
 .production-text-correct {
@@ -172,7 +172,7 @@
 
 .calculation {
     height: 420px;
-    background: url(../Project_FD1/Pictures/bg_5.gif) center center no-repeat;
+    background: url(Pictures/bg_5.gif) center center no-repeat;
     background-size: cover;
     overflow: hidden;
 }
@@ -210,7 +210,7 @@
 
 .metal {
     height: 500px;
-    background: url(../Project_FD1/Pictures/bg_6.gif) center center no-repeat;
+    background: url(Pictures/bg_6.gif) center center no-repeat;
     background-size: cover;
 }
 .metal-title {
@@ -255,15 +255,15 @@
     background-color: #1D4596;
 }
 .metal-one {
-    background: url(../Project_FD1/Pictures/Zdania-pod-kl.jpeg) center center no-repeat;
+    background: url(Pictures/Zdania-pod-kl.jpeg) center center no-repeat;
     background-size: cover;
 }
 .metal-two {
-    background: url(../Project_FD1/Pictures/Pozharnie-lestnicy.jpeg) center center no-repeat;
+    background: url(Pictures/Pozharnie-lestnicy.jpeg) center center no-repeat;
     background-size: cover;
 }
 .metal-three {
-    background: url(../Project_FD1/Pictures/Proektirovanie.jpeg) center center no-repeat;
+    background: url(Pictures/Proektirovanie.jpeg) center center no-repeat;
     background-size: cover;
 }
 
@@ -271,7 +271,7 @@
 
 .about {
     height: 370px;
-    background: url(../Project_FD1/Pictures/bg_7.gif) center center no-repeat;
+    background: url(Pictures/bg_7.gif) center center no-repeat;
     background-size: cover;
     font-family: 'Ubuntu';
     font-weight: bold;
@@ -300,7 +300,7 @@
 
 .partners {
     height: 900px;
-    background: url(../Project_FD1/Pictures/bg_8.gif) center center no-repeat;
+    background: url(Pictures/bg_8.gif) center center no-repeat;
     background-size: cover;
 }
 .partners-text {

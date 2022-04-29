@@ -14,21 +14,21 @@
 .footer-icon-tik-tok {
     width: 36px;
     height: 36px;
-    background: url(../Project_FD1/Pictures/tiktok.svg) center center;
+    background: url(Pictures/tiktok.svg) center center;
     background-repeat: no-repeat;
     margin-left: 550px;
 }
 .footer-icon-youtube {
     width: 36px;
     height: 36px;
-    background: url(../Project_FD1/Pictures/youtube.svg) center center;
+    background: url(Pictures/youtube.svg) center center;
     background-repeat: no-repeat;
     margin-left: 20px;
 }
 .footer-icon-instagramm {
     width: 36px;
     height: 36px;
-    background: url(../Project_FD1/Pictures/instagr.svg) center center;
+    background: url(Pictures/instagr.svg) center center;
     background-repeat: no-repeat;
     margin-left: 20px;
 }
@@ -71,7 +71,7 @@
 .footer-top {
     height: 415px;
     overflow: hidden;
-    background: url(../Project_FD1/Pictures/footer.gif) center center;
+    background: url(Pictures/footer.gif) center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -119,7 +119,7 @@
     height: 40px;
     width: 305px;
     text-align: center;
-    background: url(../Project_FD1/Pictures/Footer_number.svg) center left;
+    background: url(Pictures/Footer_number.svg) center left;
     background-repeat: no-repeat;
     margin-left: 173px;
     margin-bottom: 20px;

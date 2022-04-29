@@ -5,12 +5,12 @@
 @font-face {
 	font-family: 'Roboto Condensed'; 
 	src: local('Roboto Condensed'),
-	url(../Project_FD1/Font/RobotoCondensed-Bold.ttf); 
+	url(Font/RobotoCondensed-Bold.ttf); 
 }
 @font-face {
 	font-family: 'Ubuntu'; 
 	src: local('Ubuntu'),
-	url(../Project_FD1/Font/Ubuntu-Bold.ttf); 
+	url(Font/Ubuntu-Bold.ttf); 
 }
 .logoname {
     font-size: 25px;
@@ -57,7 +57,7 @@
     left: 48px;
 }
 .header-location {
-    background: url(../Project_FD1/Pictures/Vector_icon.gif) center left;
+    background: url(Pictures/Vector_icon.gif) center left;
     background-repeat: no-repeat;
     padding-left: 22px;
     margin-left: 45px;
@@ -71,7 +71,7 @@
     width: 150px;
     margin-left: 45px;
     padding-left: 20px;
-    background: url(../Project_FD1/Pictures/icons8-whatsapp-19.png) top left;
+    background: url(Pictures/icons8-whatsapp-19.png) top left;
     background-repeat: no-repeat;
 }
 .header-number-tel {
@@ -87,7 +87,7 @@
 .header-instagramm {
     width: 36px;
     height: 36px;
-    background: url(../Project_FD1/Pictures/instagr.svg) center center;
+    background: url(Pictures/instagr.svg) center center;
     background-repeat: no-repeat;
 }
 summary {
