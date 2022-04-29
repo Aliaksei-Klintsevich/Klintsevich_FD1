@@ -36,7 +36,7 @@
 
 .advantages {
     height: 460px;
-    background: url(../Project_FD1/Pictures/main_bg_2.png) center center no-repeat;
+    background: url(../Project_FD1/Pictures/main_bg_2.gif) center center no-repeat;
     background-size: cover;
 }
 .advantages-text {
@@ -142,19 +142,19 @@
     background-color: #1D4596;
 }
 .production-one {
-    background: url(../Project_FD1/Pictures/Стеновые\ панели.jpg) center center no-repeat;
+    background: url(../Project_FD1/Pictures/Stenov-panely.jpg) center center no-repeat;
     background-size: cover;
 }
 .production-two {
-    background: url(../Project_FD1/Pictures/Кровельн\ панели.png) center center no-repeat;
+    background: url(../Project_FD1/Pictures/Kroveln-panely.jpeg) center center no-repeat;
     background-size: cover;
 }
 .production-three {
-    background: url(../Project_FD1/Pictures/Фасонн\ панели.png) center center no-repeat;
+    background: url(../Project_FD1/Pictures/Fasonn-panely.jpeg) center center no-repeat;
     background-size: cover;
 }
 .production-four {
-    background: url(../Project_FD1/Pictures/Уплотнит\ панели.png) center center no-repeat;
+    background: url(../Project_FD1/Pictures/Uplotnit-paneli.jpeg) center center no-repeat;
     background-size: cover;
 }
 .production-text-correct {
@@ -171,7 +171,7 @@
 
 .calculation {
     height: 320px;
-    background: url(../Project_FD1/Pictures/bg_5.png) center center no-repeat;
+    background: url(../Project_FD1/Pictures/bg_5.gif) center center no-repeat;
     background-size: cover;
     overflow: hidden;
 }
@@ -206,7 +206,7 @@
 
 .metal {
     height: 500px;
-    background: url(../Project_FD1/Pictures/bg_6.png) center center no-repeat;
+    background: url(../Project_FD1/Pictures/bg_6.gif) center center no-repeat;
     background-size: cover;
 }
 .metal-title {
@@ -247,15 +247,15 @@
     background-color: #1D4596;
 }
 .metal-one {
-    background: url(../Project_FD1/Pictures/Здания\ под\ ключ.png) center center no-repeat;
+    background: url(../Project_FD1/Pictures/Zdania-pod-kl.jpeg) center center no-repeat;
     background-size: cover;
 }
 .metal-two {
-    background: url(../Project_FD1/Pictures/Пожарние\ лестницы.png) center center no-repeat;
+    background: url(../Project_FD1/Pictures/Pozharnie-lestnicy.jpeg) center center no-repeat;
     background-size: cover;
 }
 .metal-three {
-    background: url(../Project_FD1/Pictures/Проектирование.png) center center no-repeat;
+    background: url(../Project_FD1/Pictures/Proektirovanie.jpeg) center center no-repeat;
     background-size: cover;
 }
 
@@ -263,7 +263,7 @@
 
 .about {
     height: 370px;
-    background: url(../Project_FD1/Pictures/bg_7.png) center center no-repeat;
+    background: url(../Project_FD1/Pictures/bg_7.gif) center center no-repeat;
     background-size: cover;
     font-family: 'Ubuntu';
     font-weight: bold;
@@ -292,7 +292,7 @@
 
 .partners {
     height: 900px;
-    background: url(../Project_FD1/Pictures/bg_8.png) center center no-repeat;
+    background: url(../Project_FD1/Pictures/bg_8.gif) center center no-repeat;
     background-size: cover;
 }
 .partners-text {

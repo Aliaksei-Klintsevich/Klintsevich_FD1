@@ -2,7 +2,7 @@
 
 .consultation {
     height: 350px;
-    background: url(../Project_FD1/Pictures/bg_9.png) center center no-repeat;
+    background: url(../Project_FD1/Pictures/bg_9.gif) center center no-repeat;
     background-size: cover;
 }
 .consultation-text {
@@ -128,19 +128,19 @@
     background-color: #1D4596;
 }
 .product-metal-one {
-    background: url(../Project_FD1/Pictures/Здания\ под\ ключ.png) center center no-repeat;
+    background: url(../Project_FD1/Pictures/Zdania-pod-kl.jpeg) center center no-repeat;
     background-size: cover;
     border-top-left-radius:  10px;
     border-top-right-radius: 10px;
 }
 .product-metal-two {
-    background: url(../Project_FD1/Pictures/Пожарние\ лестницы.png) center center no-repeat;
+    background: url(../Project_FD1/Pictures/Pozharnie-lestnicy.jpeg) center center no-repeat;
     background-size: cover;
     border-top-left-radius:  10px;
     border-top-right-radius: 10px;
 }
 .product-metal-three {
-    background: url(../Project_FD1/Pictures/Проектирование.png) center center no-repeat;
+    background: url(../Project_FD1/Pictures/Proektirovanie.jpeg) center center no-repeat;
     background-size: cover;
     border-top-left-radius:  10px;
     border-top-right-radius: 10px;
